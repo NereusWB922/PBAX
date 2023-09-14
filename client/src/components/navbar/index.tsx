@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Box, Typography, useTheme } from "@mui/material";
-import FlexBetween from "@/components/FlexBetween";
+import FlexBetween from "@/common/FlexBetween";
 import StorageIcon from '@mui/icons-material/Storage';
 
 type Props = {};
