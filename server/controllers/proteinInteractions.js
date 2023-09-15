@@ -1,4 +1,4 @@
-import ProteinInteraction from "../models/ProteinInteraction";
+import ProteinInteraction from "../models/ProteinInteraction.js";
 
 const generateSort = (sort) => {
   const sortParsed = JSON.parse(sort);
@@ -11,7 +11,12 @@ const generateSort = (sort) => {
 
 const generateSearchConditions = (search) => {
   // Get all the fields of the ProteinInteraction model
-  const searchableFields = Object.keys(ProteinInteraction.schema.paths);
+  const allFields = Object.keys(ProteinInteraction.schema.paths);
+
+// Filter the array to include only string type fields
+  const searchableFields = allFields.filter((field) => {
+    return ProteinInteraction.schema.paths[field].instance === "String";
+  });
 
   const searchConditions = [];
 
@@ -33,7 +38,7 @@ export const searchProteinInteractions = async (req, res) => {
     const searchConditions = generateSearchConditions(search);
 
     const proteinInteractions = await ProteinInteraction.find({
-      $or: searchConditions,
+      $or: searchConditions
     })
       .sort(sortFormatted)
       .skip(page * pageSize)
@@ -47,7 +52,7 @@ export const searchProteinInteractions = async (req, res) => {
       proteinInteractions,
       total,
     });
-  } catch {
+  } catch (error) {
     res.status(400).json({ message: error.message });
   }
 };
