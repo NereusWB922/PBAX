@@ -5,6 +5,7 @@ import Header from "@/components/header";
 import { useState } from "react";
 import columns from "./columns";
 import DataGridCustomToolbar from "@/components/dataGridCustomToolbar";
+import CustomNoRowsOverlay from "@/components/customNoRowsOverlay";
 
 const SearchPage = () => {
   const theme = useTheme();
@@ -66,15 +67,20 @@ const SearchPage = () => {
             borderBottom: `1px solid ${theme.palette.grey[800]} !important`,
             backgroundColor: theme.palette.grey[900],
             color: theme.palette.secondary[100],
+            overflowX: "hidden",
+            minHeight: "auto",
           },
           "& .MuiDataGrid-virtualScroller::-webkit-scrollbar": {
             width: "0.6em",
+            overflow: "auto",
           },
           "& .MuiDataGrid-virtualScroller::-webkit-scrollbar-track": {
-            backgroundColor: theme.palette.grey[800],
+            backgroundColor: "transparent",
           },
           "& .MuiDataGrid-virtualScroller::-webkit-scrollbar-thumb": {
-            backgroundColor: theme.palette.primary[400],
+            background: theme.palette.primary[400],
+            borderRadius: "20px",
+            backgroundClip: "content-box",
           },
           "& .MuiDataGrid-virtualScroller::-webkit-scrollbar-thumb:hover": {
             background: theme.palette.primary[600],
@@ -128,7 +134,10 @@ const SearchPage = () => {
           sortingMode="server"
           onSortModelChange={(newSortModel) => setSort(newSortModel[0])}
           // Custom toolbar
-          slots={{ toolbar: DataGridCustomToolbar }}
+          slots={{
+            toolbar: DataGridCustomToolbar,
+            noRowsOverlay: CustomNoRowsOverlay,
+          }}
           slotProps={{
             toolbar: { tempSearchInput, setTempSearchInput, setSearch },
             columnsPanel: {
