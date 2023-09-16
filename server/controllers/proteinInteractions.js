@@ -31,10 +31,12 @@ const generateSearchConditions = (search) => {
 
 export const searchProteinInteractions = async (req, res) => {
   try {
-    const { page, pageSize, sort, search } = req.query;
+    const { paginationModel, sort, search } = req.query;
+
+    const { page, pageSize } = JSON.parse(paginationModel);
 
     const sortFormatted =
-      Object.keys(sort).length === 0 ? generateSort(sort) : {};
+      Object.keys(sort).length === 0 ? {} : generateSort(sort);
 
     const searchConditions = generateSearchConditions(search);
 

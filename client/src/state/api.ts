@@ -1,15 +1,22 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+import {
+  SearchProtienInteractionsResponse,
+  SearchProtienInteractionsParam,
+} from "./types";
 
 export const api = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_BASE_URL }),
   reducerPath: "main",
   tagTypes: ["ProteinInteractions"],
   endpoints: (build) => ({
-    searchProteinInteractions: build.query({
-      query: ({ page, pageSize, sort, search }) => ({
+    searchProteinInteractions: build.query<
+      SearchProtienInteractionsResponse,
+      SearchProtienInteractionsParam
+    >({
+      query: ({ paginationModel, sort, search }) => ({
         url: "api/protein-interactions/search",
         method: "GET",
-        params: { page, pageSize, sort, search },
+        params: { paginationModel, sort, search },
       }),
       providesTags: ["ProteinInteractions"],
     }),

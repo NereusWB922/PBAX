@@ -21,8 +21,7 @@ export interface ProtienInteraction {
 }
 
 export interface SearchProtienInteractionsParam {
-  page: number;
-  pageSize: number;
+  paginationModel: string;
   sort: string;
   search: string;
 }
