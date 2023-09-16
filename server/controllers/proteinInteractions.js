@@ -35,8 +35,7 @@ export const searchProteinInteractions = async (req, res) => {
 
     const { page, pageSize } = JSON.parse(paginationModel);
 
-    const sortFormatted =
-      Object.keys(sort).length === 0 ? {} : generateSort(sort);
+    const sortFormatted = sort === "{}" ? {} : generateSort(sort);
 
     const searchConditions = generateSearchConditions(search);
 
