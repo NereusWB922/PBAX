@@ -1,12 +1,13 @@
 import { Box, CssBaseline, ThemeProvider } from "@mui/material";
-import { createTheme } from "@mui/material/styles"
-import { useMemo } from "react"
-import { themeSettings } from "./theme"
+import { createTheme } from "@mui/material/styles";
+import { useMemo } from "react";
+import { themeSettings } from "./theme";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "@/components/navbar";
+import SearchPage from "./scenes/search";
 
 function App() {
-  const theme = useMemo(() => createTheme(themeSettings), [])
+  const theme = useMemo(() => createTheme(themeSettings), []);
   return (
     <div className="app">
       <BrowserRouter>
@@ -15,14 +16,14 @@ function App() {
           <Box width="100%" height="100%" padding="1rem 2rem 4rem 2rem">
             <Navbar />
             <Routes>
-              <Route path="/" element={<div>home page</div>}/>
-              <Route path="/search" element={<div>search page</div>} />
+              <Route path="/" element={<div>Home page</div>} />
+              <Route path="/search" element={<SearchPage />} />
             </Routes>
           </Box>
         </ThemeProvider>
       </BrowserRouter>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
