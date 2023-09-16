@@ -1,7 +1,9 @@
 export const jsonData = [
 {
     "pdb_id": "1A22",
-    "mutations": "F10A",
+    "mutations": [
+        "F10A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -15,7 +17,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "N12A",
+    "mutations": [
+        "N12A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -29,7 +33,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "L15A",
+    "mutations": [
+        "L15A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -43,7 +49,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "R16A",
+    "mutations": [
+        "R16A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -57,7 +65,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "H18A",
+    "mutations": [
+        "H18A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -71,7 +81,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "R19A",
+    "mutations": [
+        "R19A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -85,7 +97,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "H21A",
+    "mutations": [
+        "H21A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -99,7 +113,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "F25A",
+    "mutations": [
+        "F25A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -113,7 +129,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "D26E",
+    "mutations": [
+        "D26E"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -127,7 +145,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "F54A",
+    "mutations": [
+        "F54A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -141,7 +161,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "S55A",
+    "mutations": [
+        "S55A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -155,7 +177,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E56A",
+    "mutations": [
+        "E56A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -169,7 +193,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "S57A",
+    "mutations": [
+        "S57A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -183,7 +209,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "I58A",
+    "mutations": [
+        "I58A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -197,7 +225,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "P59A",
+    "mutations": [
+        "P59A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -211,7 +241,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "S62A",
+    "mutations": [
+        "S62A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -225,7 +257,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "N63A",
+    "mutations": [
+        "N63A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -239,7 +273,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "R64A",
+    "mutations": [
+        "R64A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -253,7 +289,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E65A",
+    "mutations": [
+        "E65A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -267,7 +305,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E66A",
+    "mutations": [
+        "E66A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -281,7 +321,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "Q68A",
+    "mutations": [
+        "Q68A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -295,7 +337,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "Q69A",
+    "mutations": [
+        "Q69A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -309,7 +353,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "K70A",
+    "mutations": [
+        "K70A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -323,7 +369,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "S71A",
+    "mutations": [
+        "S71A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -337,7 +385,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "L73A",
+    "mutations": [
+        "L73A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -351,7 +401,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "Y160A",
+    "mutations": [
+        "Y160A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -365,7 +417,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "Y164A",
+    "mutations": [
+        "Y164A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -379,7 +433,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "R167A",
+    "mutations": [
+        "R167A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -393,7 +449,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "K168A",
+    "mutations": [
+        "K168A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -407,7 +465,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "D171A",
+    "mutations": [
+        "D171A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -421,7 +481,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "K172A",
+    "mutations": [
+        "K172A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -435,7 +497,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E174A",
+    "mutations": [
+        "E174A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -449,7 +513,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "T175S",
+    "mutations": [
+        "T175S"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -463,7 +529,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "F176A",
+    "mutations": [
+        "F176A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -477,7 +545,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "R178A",
+    "mutations": [
+        "R178A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -491,7 +561,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "I179A",
+    "mutations": [
+        "I179A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -505,7 +577,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "I179M",
+    "mutations": [
+        "I179M"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -519,7 +593,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "V180A",
+    "mutations": [
+        "V180A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -533,7 +609,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "Q181A",
+    "mutations": [
+        "Q181A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -547,7 +625,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "R183A",
+    "mutations": [
+        "R183A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -561,7 +641,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "S184A",
+    "mutations": [
+        "S184A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -575,7 +657,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "V185A",
+    "mutations": [
+        "V185A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -589,7 +673,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E186A",
+    "mutations": [
+        "E186A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -603,7 +689,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "G187A",
+    "mutations": [
+        "G187A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -617,7 +705,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "S188A",
+    "mutations": [
+        "S188A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -631,7 +721,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "K168A,EA174A",
+    "mutations": [
+        "K168A",
+        "EA174A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -645,7 +738,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "R64A,DA171A",
+    "mutations": [
+        "R64A",
+        "DA171A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -659,7 +755,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "K172A,FA176A",
+    "mutations": [
+        "K172A",
+        "FA176A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -673,7 +772,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "D319A,EB320A,KB321A",
+    "mutations": [
+        "D319A",
+        "EB320A",
+        "KB321A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -687,7 +790,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "D326A",
+    "mutations": [
+        "D326A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -701,7 +806,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "D332A",
+    "mutations": [
+        "D332A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -715,7 +822,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "D352A,RB356A,EB358A",
+    "mutations": [
+        "D352A",
+        "RB356A",
+        "EB358A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -729,7 +840,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "D405A",
+    "mutations": [
+        "D405A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -743,7 +856,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E242A",
+    "mutations": [
+        "E242A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -757,7 +872,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E244A",
+    "mutations": [
+        "E244A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -771,7 +888,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E275A",
+    "mutations": [
+        "E275A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -785,7 +904,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E279A",
+    "mutations": [
+        "E279A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -799,7 +920,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E282A",
+    "mutations": [
+        "E282A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -813,7 +936,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E291A",
+    "mutations": [
+        "E291A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -827,7 +952,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E327A",
+    "mutations": [
+        "E327A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -841,7 +968,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E373A",
+    "mutations": [
+        "E373A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -855,7 +984,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E375A",
+    "mutations": [
+        "E375A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -869,7 +1000,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E380A",
+    "mutations": [
+        "E380A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -883,7 +1016,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E383A,KB385A,KB387A,DB390A",
+    "mutations": [
+        "E383A",
+        "KB385A",
+        "KB387A",
+        "DB390A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -897,7 +1035,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E407A",
+    "mutations": [
+        "E407A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -911,7 +1051,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E409A",
+    "mutations": [
+        "E409A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -925,7 +1067,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "E424A",
+    "mutations": [
+        "E424A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -939,7 +1083,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "F296S",
+    "mutations": [
+        "F296S"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -953,7 +1099,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "F300A",
+    "mutations": [
+        "F300A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -967,7 +1115,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "I303A",
+    "mutations": [
+        "I303A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -981,7 +1131,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "I305A",
+    "mutations": [
+        "I305A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -995,7 +1147,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "I328A",
+    "mutations": [
+        "I328A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -1009,7 +1163,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "K234A,KB237A",
+    "mutations": [
+        "K234A",
+        "KB237A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -1023,7 +1180,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "K281A",
+    "mutations": [
+        "K281A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -1037,7 +1196,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "K310A",
+    "mutations": [
+        "K310A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -1051,7 +1212,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "K379A",
+    "mutations": [
+        "K379A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -1065,7 +1228,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "K403A",
+    "mutations": [
+        "K403A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -1079,7 +1244,13 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "K403A,DB405A,KB406A,EB407A,EB409A",
+    "mutations": [
+        "K403A",
+        "DB405A",
+        "KB406A",
+        "EB407A",
+        "EB409A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -1093,7 +1264,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "I305A",
+    "mutations": [
+        "I305A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1107,7 +1280,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "I365A",
+    "mutations": [
+        "I365A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1121,7 +1296,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "K321A",
+    "mutations": [
+        "K321A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1135,7 +1312,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "K367A",
+    "mutations": [
+        "K367A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1149,7 +1328,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "N272A",
+    "mutations": [
+        "N272A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1163,7 +1344,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "N418A",
+    "mutations": [
+        "N418A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1177,7 +1360,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "Q274A",
+    "mutations": [
+        "Q274A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1191,7 +1376,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "Q366A",
+    "mutations": [
+        "Q366A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1205,7 +1392,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "Q416A",
+    "mutations": [
+        "Q416A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1219,7 +1408,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "R243A",
+    "mutations": [
+        "R243A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1233,7 +1424,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "R417A",
+    "mutations": [
+        "R417A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1247,7 +1440,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "S298A",
+    "mutations": [
+        "S298A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1261,7 +1456,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "S302A",
+    "mutations": [
+        "S302A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1275,7 +1472,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "S324A",
+    "mutations": [
+        "S324A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1289,7 +1488,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "T273A",
+    "mutations": [
+        "T273A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1303,7 +1504,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "T394A",
+    "mutations": [
+        "T394A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1317,7 +1520,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "T395A",
+    "mutations": [
+        "T395A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1331,7 +1536,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "V371A",
+    "mutations": [
+        "V371A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1345,7 +1552,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "W276A",
+    "mutations": [
+        "W276A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1359,7 +1568,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "W280A",
+    "mutations": [
+        "W280A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -1373,7 +1584,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "F25A",
+    "mutations": [
+        "F25A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Surface Plasmon Resonance",
@@ -1387,7 +1600,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "F25A,YA42A,QA46A",
+    "mutations": [
+        "F25A",
+        "YA42A",
+        "QA46A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Surface Plasmon Resonance",
@@ -1401,7 +1618,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "F10A",
+    "mutations": [
+        "F10A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1410,12 +1629,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.0,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "N12A",
+    "mutations": [
+        "N12A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1424,12 +1645,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": -0.3,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "L15A",
+    "mutations": [
+        "L15A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1438,12 +1661,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.0,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "R16A",
+    "mutations": [
+        "R16A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1452,12 +1677,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.0,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "H18A",
+    "mutations": [
+        "H18A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1466,12 +1693,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 2.91,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "R19A",
+    "mutations": [
+        "R19A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1480,12 +1709,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.0,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "H21A",
+    "mutations": [
+        "H21A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1494,12 +1725,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 2.67,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "F25A",
+    "mutations": [
+        "F25A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1508,12 +1741,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 1.15,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "D26E",
+    "mutations": [
+        "D26E"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1522,12 +1757,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.38,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "F54A",
+    "mutations": [
+        "F54A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1536,12 +1773,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.21,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "S55A",
+    "mutations": [
+        "S55A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1550,12 +1789,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.25,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "E56A",
+    "mutations": [
+        "E56A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1564,12 +1805,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": -0.12,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "S57A",
+    "mutations": [
+        "S57A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1578,12 +1821,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.03,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "I58A",
+    "mutations": [
+        "I58A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1592,12 +1837,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 1.73,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "P59A",
+    "mutations": [
+        "P59A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1606,12 +1853,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.16,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "S62A",
+    "mutations": [
+        "S62A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1620,12 +1869,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 1.42,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "N63A",
+    "mutations": [
+        "N63A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1634,12 +1885,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.86,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "R64A",
+    "mutations": [
+        "R64A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1648,12 +1901,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.35,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "E65A",
+    "mutations": [
+        "E65A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1662,12 +1917,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.55,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "E66A",
+    "mutations": [
+        "E66A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1676,12 +1933,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.07,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "Q68A",
+    "mutations": [
+        "Q68A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1690,12 +1949,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.11,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "Q69A",
+    "mutations": [
+        "Q69A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1704,12 +1965,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": -0.21,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "K70A",
+    "mutations": [
+        "K70A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1718,12 +1981,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.25,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "S71A",
+    "mutations": [
+        "S71A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1732,12 +1997,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.61,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "L73A",
+    "mutations": [
+        "L73A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1746,12 +2013,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.35,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "Y160A",
+    "mutations": [
+        "Y160A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1760,12 +2029,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.21,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "Y164A",
+    "mutations": [
+        "Y164A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1774,12 +2045,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.45,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "R167A",
+    "mutations": [
+        "R167A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1788,12 +2061,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 3.93,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "K168A",
+    "mutations": [
+        "K168A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1802,12 +2077,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 1.73,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "D171A",
+    "mutations": [
+        "D171A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1816,12 +2093,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.07,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "K172A",
+    "mutations": [
+        "K172A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1830,12 +2109,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 3.19,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "E174A",
+    "mutations": [
+        "E174A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1844,12 +2125,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 3.49,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "T175S",
+    "mutations": [
+        "T175S"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1858,12 +2141,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.49,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "F176A",
+    "mutations": [
+        "F176A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1872,12 +2157,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 1.91,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "R178A",
+    "mutations": [
+        "R178A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1886,12 +2173,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 1.15,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "I179A",
+    "mutations": [
+        "I179A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1900,12 +2189,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.35,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "I179M",
+    "mutations": [
+        "I179M"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1914,12 +2205,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": -0.16,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "V180A",
+    "mutations": [
+        "V180A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1928,12 +2221,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": -0.3,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "Q181A",
+    "mutations": [
+        "Q181A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1942,12 +2237,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.0,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "R183A",
+    "mutations": [
+        "R183A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1956,12 +2253,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.57,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "S184A",
+    "mutations": [
+        "S184A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1970,12 +2269,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": -0.12,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "V185A",
+    "mutations": [
+        "V185A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1984,12 +2285,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.28,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "E186A",
+    "mutations": [
+        "E186A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -1998,12 +2301,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.0,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "G187A",
+    "mutations": [
+        "G187A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -2012,12 +2317,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": 0.0,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "S188A",
+    "mutations": [
+        "S188A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -2026,12 +2333,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": -0.3,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "H18A",
+    "mutations": [
+        "H18A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -2040,12 +2349,14 @@ export const jsonData = [
     "delta_g": -8.96,
     "delta_delta_g": 0.19,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "H21A",
+    "mutations": [
+        "H21A"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -2054,12 +2365,14 @@ export const jsonData = [
     "delta_g": -8.96,
     "delta_delta_g": -0.18,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y13A",
+    "mutations": [
+        "Y13A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2073,7 +2386,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y13F",
+    "mutations": [
+        "Y13F"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2087,7 +2402,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "M14A",
+    "mutations": [
+        "M14A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2101,7 +2418,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "S15A",
+    "mutations": [
+        "S15A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2115,7 +2434,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "L39A",
+    "mutations": [
+        "L39A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2129,7 +2450,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "F41A",
+    "mutations": [
+        "F41A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2143,7 +2466,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "L42A",
+    "mutations": [
+        "L42A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2157,7 +2482,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "L43A",
+    "mutations": [
+        "L43A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2171,7 +2498,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "D66A",
+    "mutations": [
+        "D66A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2185,7 +2514,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "D67A",
+    "mutations": [
+        "D67A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2199,7 +2530,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "V68A",
+    "mutations": [
+        "V68A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2213,7 +2546,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "V69A",
+    "mutations": [
+        "V69A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2227,7 +2562,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "S70A",
+    "mutations": [
+        "S70A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2241,7 +2578,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "D72A",
+    "mutations": [
+        "D72A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2255,7 +2594,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "D72N",
+    "mutations": [
+        "D72N"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2269,7 +2610,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "N73A",
+    "mutations": [
+        "N73A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2283,7 +2626,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y74A",
+    "mutations": [
+        "Y74A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2297,7 +2642,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "K91A",
+    "mutations": [
+        "K91A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2311,7 +2658,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "P92A",
+    "mutations": [
+        "P92A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2325,7 +2674,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "S93A",
+    "mutations": [
+        "S93A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2339,7 +2690,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "E94A",
+    "mutations": [
+        "E94A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2353,7 +2706,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "D125A",
+    "mutations": [
+        "D125A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2367,7 +2722,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "N126A",
+    "mutations": [
+        "N126A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2381,7 +2738,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y127A",
+    "mutations": [
+        "Y127A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2395,7 +2754,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y127F",
+    "mutations": [
+        "Y127F"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2409,7 +2770,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "L128A",
+    "mutations": [
+        "L128A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2423,7 +2786,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y129A",
+    "mutations": [
+        "Y129A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2437,7 +2802,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y183A",
+    "mutations": [
+        "Y183A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2451,7 +2818,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y183F",
+    "mutations": [
+        "Y183F"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2465,7 +2834,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "R53A",
+    "mutations": [
+        "R53A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2479,7 +2850,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y56A",
+    "mutations": [
+        "Y56A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2493,7 +2866,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y13F, LB39A",
+    "mutations": [
+        "Y13F",
+        "LB39A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2507,7 +2883,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y13F, FB41A",
+    "mutations": [
+        "Y13F",
+        "FB41A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2521,7 +2900,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y13F, DB67A",
+    "mutations": [
+        "Y13F",
+        "DB67A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2535,7 +2917,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y13F, VB69A",
+    "mutations": [
+        "Y13F",
+        "VB69A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2549,7 +2934,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y13F, DB72N",
+    "mutations": [
+        "Y13F",
+        "DB72N"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2563,7 +2951,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y13F, YB127A",
+    "mutations": [
+        "Y13F",
+        "YB127A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2577,7 +2968,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "W91A, DB72A",
+    "mutations": [
+        "W91A",
+        "DB72A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2591,7 +2985,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "I5A, DB72N",
+    "mutations": [
+        "I5A",
+        "DB72N"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2605,7 +3002,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "T13A, DB72N",
+    "mutations": [
+        "T13A",
+        "DB72N"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2619,7 +3019,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "N89A, DB72N",
+    "mutations": [
+        "N89A",
+        "DB72N"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2633,7 +3036,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "R53A, DB72N",
+    "mutations": [
+        "R53A",
+        "DB72N"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2647,7 +3053,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y56A, DB72N",
+    "mutations": [
+        "Y56A",
+        "DB72N"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2661,7 +3070,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "R88A, DB72N",
+    "mutations": [
+        "R88A",
+        "DB72N"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2675,7 +3087,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "W91A, DB72N",
+    "mutations": [
+        "W91A",
+        "DB72N"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2689,7 +3104,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "I5A, DB67A",
+    "mutations": [
+        "I5A",
+        "DB67A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2703,7 +3121,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "E9Q, DB67A",
+    "mutations": [
+        "E9Q",
+        "DB67A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2717,7 +3138,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "T13A, DB67A",
+    "mutations": [
+        "T13A",
+        "DB67A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2731,7 +3155,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "N89A, DB67A",
+    "mutations": [
+        "N89A",
+        "DB67A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2745,7 +3172,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "R53A, DB67A",
+    "mutations": [
+        "R53A",
+        "DB67A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2759,7 +3189,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Y56A, DB67A",
+    "mutations": [
+        "Y56A",
+        "DB67A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2773,7 +3206,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "R88A, DB67A",
+    "mutations": [
+        "R88A",
+        "DB67A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2787,7 +3223,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "W91A, DB67A",
+    "mutations": [
+        "W91A",
+        "DB67A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2801,7 +3240,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "E19A",
+    "mutations": [
+        "E19A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2815,7 +3256,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "E19R",
+    "mutations": [
+        "E19R"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2829,7 +3272,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "E9Q",
+    "mutations": [
+        "E9Q"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2843,7 +3288,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "F82A",
+    "mutations": [
+        "F82A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2857,7 +3304,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "F82D",
+    "mutations": [
+        "F82D"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2871,7 +3320,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "I11A",
+    "mutations": [
+        "I11A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2885,7 +3336,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "I5A",
+    "mutations": [
+        "I5A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2899,7 +3352,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "I5R",
+    "mutations": [
+        "I5R"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2913,7 +3368,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "K12E",
+    "mutations": [
+        "K12E"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2927,7 +3384,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "K12S",
+    "mutations": [
+        "K12S"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2941,7 +3400,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "K77A",
+    "mutations": [
+        "K77A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2955,7 +3416,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "K77E",
+    "mutations": [
+        "K77E"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2969,7 +3432,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "K84A",
+    "mutations": [
+        "K84A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2983,7 +3448,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "K84D",
+    "mutations": [
+        "K84D"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -2997,7 +3464,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "N15A",
+    "mutations": [
+        "N15A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3011,7 +3480,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "N15D",
+    "mutations": [
+        "N15D"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3025,7 +3496,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "N89A",
+    "mutations": [
+        "N89A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3039,7 +3512,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Q78A",
+    "mutations": [
+        "Q78A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3053,7 +3528,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Q78E",
+    "mutations": [
+        "Q78E"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3067,7 +3544,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Q8A",
+    "mutations": [
+        "Q8A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3081,7 +3560,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Q8R",
+    "mutations": [
+        "Q8R"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3095,7 +3576,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "R53Q",
+    "mutations": [
+        "R53Q"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3109,7 +3592,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "R81A",
+    "mutations": [
+        "R81A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3123,7 +3608,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "R81E",
+    "mutations": [
+        "R81E"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3137,7 +3624,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "R85A",
+    "mutations": [
+        "R85A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3151,7 +3640,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "R85E",
+    "mutations": [
+        "R85E"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3165,7 +3656,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "R88A",
+    "mutations": [
+        "R88A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3179,7 +3672,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "R88Q",
+    "mutations": [
+        "R88Q"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3193,7 +3688,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "S16A",
+    "mutations": [
+        "S16A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3207,7 +3704,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "S16D",
+    "mutations": [
+        "S16D"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3221,7 +3720,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "T13A",
+    "mutations": [
+        "T13A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3235,7 +3736,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "T13D",
+    "mutations": [
+        "T13D"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3249,7 +3752,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "T6A",
+    "mutations": [
+        "T6A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3263,7 +3768,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "T6D",
+    "mutations": [
+        "T6D"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3277,7 +3784,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "W91A",
+    "mutations": [
+        "W91A"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3291,7 +3800,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "W91D",
+    "mutations": [
+        "W91D"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -3305,7 +3816,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "S2A,NC3A,IC4A",
+    "mutations": [
+        "S2A",
+        "NC3A",
+        "IC4A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3319,7 +3834,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "T5A,PC7A",
+    "mutations": [
+        "T5A",
+        "PC7A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3333,7 +3851,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "Q8A,MC9A,VC10A",
+    "mutations": [
+        "Q8A",
+        "MC9A",
+        "VC10A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3347,7 +3869,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "F12A",
+    "mutations": [
+        "F12A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3361,7 +3885,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "L15A,NC16A,FC17A",
+    "mutations": [
+        "L15A",
+        "NC16A",
+        "FC17A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3375,7 +3903,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "S28A,PC29A",
+    "mutations": [
+        "S28A",
+        "PC29A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3389,7 +3920,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "M31A,LC32A",
+    "mutations": [
+        "M31A",
+        "LC32A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3403,7 +3937,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "T34A",
+    "mutations": [
+        "T34A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3417,7 +3953,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "T36A",
+    "mutations": [
+        "T36A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3431,7 +3969,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "L37A,NC38A,KC39A",
+    "mutations": [
+        "L37A",
+        "NC38A",
+        "KC39A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3445,7 +3987,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "K99A,VC100A,NC101A",
+    "mutations": [
+        "K99A",
+        "VC100A",
+        "NC101A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3459,7 +4005,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "F108A,LC109A",
+    "mutations": [
+        "F108A",
+        "LC109A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3473,7 +4022,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "K11A",
+    "mutations": [
+        "K11A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3487,7 +4038,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "R175A,QC176A",
+    "mutations": [
+        "R175A",
+        "QC176A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3501,7 +4055,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "N181A,NC182A,SC183A",
+    "mutations": [
+        "N181A",
+        "NC182A",
+        "SC183A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3515,7 +4073,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "S184A,PC185A,VC186A",
+    "mutations": [
+        "S184A",
+        "PC185A",
+        "VC186A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3529,7 +4091,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "N193A,TC195A",
+    "mutations": [
+        "N193A",
+        "TC195A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3543,7 +4108,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "K197A,WC198A",
+    "mutations": [
+        "K197A",
+        "WC198A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3557,7 +4125,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "N281A,NC282A,IC283A",
+    "mutations": [
+        "N281A",
+        "NC282A",
+        "IC283A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3571,7 +4143,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "G284A,RC285A",
+    "mutations": [
+        "G284A",
+        "RC285A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3585,7 +4160,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "L287A",
+    "mutations": [
+        "L287A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3599,7 +4176,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "T290A",
+    "mutations": [
+        "T290A"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -3613,7 +4192,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "D54A",
+    "mutations": [
+        "D54A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3627,7 +4208,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "D55A",
+    "mutations": [
+        "D55A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3641,7 +4224,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "D56A",
+    "mutations": [
+        "D56A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3655,7 +4240,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "D28A",
+    "mutations": [
+        "D28A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3669,7 +4256,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "E55P",
+    "mutations": [
+        "E55P"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3683,7 +4272,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "E55P,II57L",
+    "mutations": [
+        "E55P",
+        "II57L"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3697,7 +4289,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "E55P,II57R",
+    "mutations": [
+        "E55P",
+        "II57R"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3711,7 +4306,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "E27A",
+    "mutations": [
+        "E27A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3725,7 +4322,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "F98A",
+    "mutations": [
+        "F98A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3739,7 +4338,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "H100A",
+    "mutations": [
+        "H100A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3753,7 +4354,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "R95A",
+    "mutations": [
+        "R95A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3767,7 +4370,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "S93A",
+    "mutations": [
+        "S93A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3781,7 +4386,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "T94A",
+    "mutations": [
+        "T94A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3795,7 +4402,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W52A",
+    "mutations": [
+        "W52A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3809,7 +4418,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W53A",
+    "mutations": [
+        "W53A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3823,7 +4434,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W92A",
+    "mutations": [
+        "W92A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3837,7 +4450,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W96A",
+    "mutations": [
+        "W96A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3851,7 +4466,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "Y32A",
+    "mutations": [
+        "Y32A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3865,7 +4482,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "Y58A",
+    "mutations": [
+        "Y58A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3879,7 +4498,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "Y99A",
+    "mutations": [
+        "Y99A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3893,7 +4514,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "Y30A",
+    "mutations": [
+        "Y30A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3907,7 +4530,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "Y91A",
+    "mutations": [
+        "Y91A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3921,7 +4546,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "A103L,VI104M",
+    "mutations": [
+        "A103L",
+        "VI104M"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3935,7 +4563,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "A59S,II61T,HI65D",
+    "mutations": [
+        "A59S",
+        "II61T",
+        "HI65D"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3949,7 +4581,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "A95D,KI98R,EI100K",
+    "mutations": [
+        "A95D",
+        "KI98R",
+        "EI100K"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3963,7 +4599,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "E45Q",
+    "mutations": [
+        "E45Q"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3977,7 +4615,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "I35N,PI37S,VI39T,VI41I",
+    "mutations": [
+        "I35N",
+        "PI37S",
+        "VI39T",
+        "VI41I"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -3991,7 +4634,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "M25L,II28V",
+    "mutations": [
+        "M25L",
+        "II28V"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4005,7 +4651,17 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "S71Y,DI72E,HI73Q,VI74I,GI75M,DI76Y,SI78D,NI79V,LI81A",
+    "mutations": [
+        "S71Y",
+        "DI72E",
+        "HI73Q",
+        "VI74I",
+        "GI75M",
+        "DI76Y",
+        "SI78D",
+        "NI79V",
+        "LI81A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4019,7 +4675,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "T14V",
+    "mutations": [
+        "T14V"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4033,7 +4691,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "T19L,EI21K",
+    "mutations": [
+        "T19L",
+        "EI21K"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4047,7 +4708,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "V83A,RI88K",
+    "mutations": [
+        "V83A",
+        "RI88K"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4061,7 +4725,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "E55A",
+    "mutations": [
+        "E55A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4075,7 +4741,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "G50A",
+    "mutations": [
+        "G50A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4089,7 +4757,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "K47A",
+    "mutations": [
+        "K47A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4103,7 +4773,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "K47M",
+    "mutations": [
+        "K47M"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4117,7 +4789,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "K52A",
+    "mutations": [
+        "K52A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4131,7 +4805,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "K52M",
+    "mutations": [
+        "K52M"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4145,7 +4821,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "K98A",
+    "mutations": [
+        "K98A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4159,7 +4837,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "N48A",
+    "mutations": [
+        "N48A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4173,7 +4853,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "N48Q",
+    "mutations": [
+        "N48Q"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4187,7 +4869,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "N53A",
+    "mutations": [
+        "N53A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4201,7 +4885,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "N79A",
+    "mutations": [
+        "N79A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4215,7 +4901,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "R84A",
+    "mutations": [
+        "R84A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4229,7 +4917,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "S54A",
+    "mutations": [
+        "S54A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4243,7 +4933,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "V51A",
+    "mutations": [
+        "V51A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4257,7 +4949,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W56F",
+    "mutations": [
+        "W56F"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4271,7 +4965,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W56Y",
+    "mutations": [
+        "W56Y"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4285,7 +4981,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W82A",
+    "mutations": [
+        "W82A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4299,7 +4997,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W82F",
+    "mutations": [
+        "W82F"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4313,7 +5013,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W82Y",
+    "mutations": [
+        "W82Y"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4327,7 +5029,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "Y49A",
+    "mutations": [
+        "Y49A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4341,7 +5045,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "Y49F",
+    "mutations": [
+        "Y49F"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -4355,7 +5061,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "E55A",
+    "mutations": [
+        "E55A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4369,7 +5077,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "G50A",
+    "mutations": [
+        "G50A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4383,7 +5093,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "K47A",
+    "mutations": [
+        "K47A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4397,7 +5109,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "K52A",
+    "mutations": [
+        "K52A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4411,7 +5125,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "K98A",
+    "mutations": [
+        "K98A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4425,7 +5141,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "N48A",
+    "mutations": [
+        "N48A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4439,7 +5157,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "N48Q",
+    "mutations": [
+        "N48Q"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4453,7 +5173,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "N53A",
+    "mutations": [
+        "N53A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4467,7 +5189,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "N79A",
+    "mutations": [
+        "N79A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4481,7 +5205,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "R84A",
+    "mutations": [
+        "R84A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4495,7 +5221,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "S54A",
+    "mutations": [
+        "S54A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4509,7 +5237,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "V51A",
+    "mutations": [
+        "V51A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4523,7 +5253,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W56F",
+    "mutations": [
+        "W56F"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4537,7 +5269,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W56Y",
+    "mutations": [
+        "W56Y"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4551,7 +5285,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W82A",
+    "mutations": [
+        "W82A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4565,7 +5301,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W82F",
+    "mutations": [
+        "W82F"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4579,7 +5317,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "W82Y",
+    "mutations": [
+        "W82Y"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4593,7 +5333,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "Y49A",
+    "mutations": [
+        "Y49A"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4607,7 +5349,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "Y49F",
+    "mutations": [
+        "Y49F"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -4621,7 +5365,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KAC",
-    "mutations": "P417S",
+    "mutations": [
+        "P417S"
+    ],
     "protein1": "Human adenovirus A serotype 12 fiber protein (ad12 knob)",
     "protein2": "Human coxsackie virus and adenovirus receptor (CAR)",
     "experiment": "Fluorescence Anisotropy/Polarization",
@@ -4635,7 +5381,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KAC",
-    "mutations": "S489Y",
+    "mutations": [
+        "S489Y"
+    ],
     "protein1": "Human adenovirus A serotype 12 fiber protein (ad12 knob)",
     "protein2": "Human coxsackie virus and adenovirus receptor (CAR)",
     "experiment": "Fluorescence Anisotropy/Polarization",
@@ -4649,7 +5397,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KAC",
-    "mutations": "P417S,SA489Y",
+    "mutations": [
+        "P417S",
+        "SA489Y"
+    ],
     "protein1": "Human adenovirus A serotype 12 fiber protein (ad12 knob)",
     "protein2": "Human coxsackie virus and adenovirus receptor (CAR)",
     "experiment": "Fluorescence Anisotropy/Polarization",
@@ -4663,7 +5414,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "D118A",
+    "mutations": [
+        "D118A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4677,7 +5430,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "D32A",
+    "mutations": [
+        "D32A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4691,7 +5446,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "D32N",
+    "mutations": [
+        "D32N"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4705,7 +5462,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "E119A",
+    "mutations": [
+        "E119A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4719,7 +5478,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "E119Q",
+    "mutations": [
+        "E119Q"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4733,7 +5494,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "E55A",
+    "mutations": [
+        "E55A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4747,7 +5510,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "E75A",
+    "mutations": [
+        "E75A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4761,7 +5526,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "F110A",
+    "mutations": [
+        "F110A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4775,7 +5542,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "F30A",
+    "mutations": [
+        "F30A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4789,7 +5558,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "H79A",
+    "mutations": [
+        "H79A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4803,7 +5574,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "I125A",
+    "mutations": [
+        "I125A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4817,7 +5590,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "I50A",
+    "mutations": [
+        "I50A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4831,7 +5606,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "I53A",
+    "mutations": [
+        "I53A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4845,7 +5622,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "L27A",
+    "mutations": [
+        "L27A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4859,7 +5638,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "M112A",
+    "mutations": [
+        "M112A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4873,7 +5654,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "N47A",
+    "mutations": [
+        "N47A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4887,7 +5670,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "S49A",
+    "mutations": [
+        "S49A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4901,7 +5686,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "S52A",
+    "mutations": [
+        "S52A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4915,7 +5702,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "S52L",
+    "mutations": [
+        "S52L"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4929,7 +5718,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "T51A",
+    "mutations": [
+        "T51A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4943,7 +5734,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "V62A",
+    "mutations": [
+        "V62A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4957,7 +5750,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "V77A",
+    "mutations": [
+        "V77A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4971,7 +5766,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "R25A",
+    "mutations": [
+        "R25A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4985,7 +5782,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "R25K",
+    "mutations": [
+        "R25K"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -4999,7 +5798,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "R94A",
+    "mutations": [
+        "R94A"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5013,7 +5814,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "R94K",
+    "mutations": [
+        "R94K"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5027,7 +5830,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "V92I",
+    "mutations": [
+        "V92I"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5041,7 +5846,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "A34D,AB34D",
+    "mutations": [
+        "A34D",
+        "AB34D"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5055,7 +5863,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "A34D,DA53A,AB34D,DB53A",
+    "mutations": [
+        "A34D",
+        "DA53A",
+        "AB34D",
+        "DB53A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5069,7 +5882,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "D30A,AA34D,DB30A,AB34D",
+    "mutations": [
+        "D30A",
+        "AA34D",
+        "DB30A",
+        "AB34D"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5083,7 +5901,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "D30A,DB30A",
+    "mutations": [
+        "D30A",
+        "DB30A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5097,7 +5918,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "D30A,WA31A,DB30A,WB31A",
+    "mutations": [
+        "D30A",
+        "WA31A",
+        "DB30A",
+        "WB31A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5111,7 +5937,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "D53A,DB53A",
+    "mutations": [
+        "D53A",
+        "DB53A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5125,7 +5954,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "D53A,EA109R,DB53A,EB109R",
+    "mutations": [
+        "D53A",
+        "EA109R",
+        "DB53A",
+        "EB109R"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5139,7 +5973,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "E109R,EB109R",
+    "mutations": [
+        "E109R",
+        "EB109R"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5153,7 +5990,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "F49A,FB49A",
+    "mutations": [
+        "F49A",
+        "FB49A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5167,7 +6007,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "F49A,PA50A,FB49A,PB50A",
+    "mutations": [
+        "F49A",
+        "PA50A",
+        "FB49A",
+        "PB50A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5181,7 +6026,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "H39D,HB39D",
+    "mutations": [
+        "H39D",
+        "HB39D"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5195,7 +6043,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "H39D,LA100A,HB39D,LB100A",
+    "mutations": [
+        "H39D",
+        "LA100A",
+        "HB39D",
+        "LB100A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5209,7 +6062,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "H39D,SA88A,HB39D,SB88A",
+    "mutations": [
+        "H39D",
+        "SA88A",
+        "HB39D",
+        "SB88A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5223,7 +6081,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "L100A,LB100A",
+    "mutations": [
+        "L100A",
+        "LB100A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5237,7 +6098,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "P50A,PB50A",
+    "mutations": [
+        "P50A",
+        "PB50A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5251,7 +6115,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "S88A,SB88A",
+    "mutations": [
+        "S88A",
+        "SB88A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5265,7 +6132,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "W31A,WB31A",
+    "mutations": [
+        "W31A",
+        "WB31A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5279,7 +6149,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "D53A,DB53A",
+    "mutations": [
+        "D53A",
+        "DB53A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5293,7 +6166,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "D53P,DB53P",
+    "mutations": [
+        "D53P",
+        "DB53P"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5307,7 +6183,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "Q86A",
+    "mutations": [
+        "Q86A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5321,7 +6199,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "S69R,SB69R",
+    "mutations": [
+        "S69R",
+        "SB69R"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5335,7 +6216,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "W28F,WB28F",
+    "mutations": [
+        "W28F",
+        "WB28F"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5349,7 +6233,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "Y103A,YB103A",
+    "mutations": [
+        "Y103A",
+        "YB103A"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5363,7 +6250,15 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "K88R,SC90T,KC92I,AC93P,QC94H,LC95Q,TC98D",
+    "mutations": [
+        "K88R",
+        "SC90T",
+        "KC92I",
+        "AC93P",
+        "QC94H",
+        "LC95Q",
+        "TC98D"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5377,7 +6272,19 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "K88R,SC90T,KC92I,AC93P,QC94H,LC95Q,TC98D,AC74T,MC78L,KC79G,YC80L",
+    "mutations": [
+        "K88R",
+        "SC90T",
+        "KC92I",
+        "AC93P",
+        "QC94H",
+        "LC95Q",
+        "TC98D",
+        "AC74T",
+        "MC78L",
+        "KC79G",
+        "YC80L"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5391,7 +6298,23 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "K88R,SC90T,KC92I,AC93P,QC94H,LC95Q,TC98D,AC74T,MC78L,KC79G,YC80L,GC42H,DC46E,AC61T,IC62M",
+    "mutations": [
+        "K88R",
+        "SC90T",
+        "KC92I",
+        "AC93P",
+        "QC94H",
+        "LC95Q",
+        "TC98D",
+        "AC74T",
+        "MC78L",
+        "KC79G",
+        "YC80L",
+        "GC42H",
+        "DC46E",
+        "AC61T",
+        "IC62M"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5405,7 +6328,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1YY9",
-    "mutations": "L29P",
+    "mutations": [
+        "L29P"
+    ],
     "protein1": "Human-mouse monoclonal antibody C225 gamma 1 Fab (cetuximab)",
     "protein2": "Human epidermal growth factor receptor 2 (EGFR-2/HER2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5419,7 +6344,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1YY9",
-    "mutations": "W52P",
+    "mutations": [
+        "W52P"
+    ],
     "protein1": "Human-mouse monoclonal antibody C225 gamma 1 Fab (cetuximab)",
     "protein2": "Human epidermal growth factor receptor 2 (EGFR-2/HER2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5433,7 +6360,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1YY9",
-    "mutations": "S53P",
+    "mutations": [
+        "S53P"
+    ],
     "protein1": "Human-mouse monoclonal antibody C225 gamma 1 Fab (cetuximab)",
     "protein2": "Human epidermal growth factor receptor 2 (EGFR-2/HER2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5447,7 +6376,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1YY9",
-    "mutations": "G54P",
+    "mutations": [
+        "G54P"
+    ],
     "protein1": "Human-mouse monoclonal antibody C225 gamma 1 Fab (cetuximab)",
     "protein2": "Human epidermal growth factor receptor 2 (EGFR-2/HER2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5461,7 +6392,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1YY9",
-    "mutations": "A98P",
+    "mutations": [
+        "A98P"
+    ],
     "protein1": "Human-mouse monoclonal antibody C225 gamma 1 Fab (cetuximab)",
     "protein2": "Human epidermal growth factor receptor 2 (EGFR-2/HER2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5475,7 +6408,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1YY9",
-    "mutations": "Y101P",
+    "mutations": [
+        "Y101P"
+    ],
     "protein1": "Human-mouse monoclonal antibody C225 gamma 1 Fab (cetuximab)",
     "protein2": "Human epidermal growth factor receptor 2 (EGFR-2/HER2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5489,7 +6424,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1YY9",
-    "mutations": "A25P",
+    "mutations": [
+        "A25P"
+    ],
     "protein1": "Human-mouse monoclonal antibody C225 gamma 1 Fab (cetuximab)",
     "protein2": "Human epidermal growth factor receptor 2 (EGFR-2/HER2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5503,7 +6440,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1YY9",
-    "mutations": "S26P",
+    "mutations": [
+        "S26P"
+    ],
     "protein1": "Human-mouse monoclonal antibody C225 gamma 1 Fab (cetuximab)",
     "protein2": "Human epidermal growth factor receptor 2 (EGFR-2/HER2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5517,7 +6456,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1YY9",
-    "mutations": "S28P",
+    "mutations": [
+        "S28P"
+    ],
     "protein1": "Human-mouse monoclonal antibody C225 gamma 1 Fab (cetuximab)",
     "protein2": "Human epidermal growth factor receptor 2 (EGFR-2/HER2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5531,7 +6472,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1YY9",
-    "mutations": "S54P",
+    "mutations": [
+        "S54P"
+    ],
     "protein1": "Human-mouse monoclonal antibody C225 gamma 1 Fab (cetuximab)",
     "protein2": "Human epidermal growth factor receptor 2 (EGFR-2/HER2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5545,7 +6488,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1YY9",
-    "mutations": "T96P",
+    "mutations": [
+        "T96P"
+    ],
     "protein1": "Human-mouse monoclonal antibody C225 gamma 1 Fab (cetuximab)",
     "protein2": "Human epidermal growth factor receptor 2 (EGFR-2/HER2)",
     "experiment": "Surface Plasmon Resonance",
@@ -5559,7 +6504,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2J12",
-    "mutations": "S299A",
+    "mutations": [
+        "S299A"
+    ],
     "protein1": "Human adenovirus D37 fiber protein",
     "protein2": "Human coxsackie virus and adenovirus receptor (CAR)",
     "experiment": "Surface Plasmon Resonance",
@@ -5573,7 +6520,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2J1K",
-    "mutations": "G370D",
+    "mutations": [
+        "G370D"
+    ],
     "protein1": "Human adenovirus D37 fiber protein",
     "protein2": "Human coxsackie virus and adenovirus receptor (CAR)",
     "experiment": "Surface Plasmon Resonance",
@@ -5587,7 +6536,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2J1K",
-    "mutations": "R384A",
+    "mutations": [
+        "R384A"
+    ],
     "protein1": "Human adenovirus D37 fiber protein",
     "protein2": "Human coxsackie virus and adenovirus receptor (CAR)",
     "experiment": "Surface Plasmon Resonance",
@@ -5601,7 +6552,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2J1K",
-    "mutations": "R515A",
+    "mutations": [
+        "R515A"
+    ],
     "protein1": "Human adenovirus D37 fiber protein",
     "protein2": "Human coxsackie virus and adenovirus receptor (CAR)",
     "experiment": "Surface Plasmon Resonance",
@@ -5615,7 +6568,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "2QJ9",
-    "mutations": "A74T,MC78L,KC79G,YC80L",
+    "mutations": [
+        "A74T",
+        "MC78L",
+        "KC79G",
+        "YC80L"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5629,7 +6587,16 @@ export const jsonData = [
 },
 {
     "pdb_id": "2QJ9",
-    "mutations": "A74T,MC78L,KC79G,YC80L,GC42H,DC46E,AC61T,IC62M",
+    "mutations": [
+        "A74T",
+        "MC78L",
+        "KC79G",
+        "YC80L",
+        "GC42H",
+        "DC46E",
+        "AC61T",
+        "IC62M"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5643,7 +6610,15 @@ export const jsonData = [
 },
 {
     "pdb_id": "2QJ9",
-    "mutations": "R88K,TC90S,IC92K,PC93A,HC94Q,QC95L,SC98T",
+    "mutations": [
+        "R88K",
+        "TC90S",
+        "IC92K",
+        "PC93A",
+        "HC94Q",
+        "QC95L",
+        "SC98T"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5657,7 +6632,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "2QJA",
-    "mutations": "G42H,DC46E,AC61T,IC62M",
+    "mutations": [
+        "G42H",
+        "DC46E",
+        "AC61T",
+        "IC62M"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5671,7 +6651,19 @@ export const jsonData = [
 },
 {
     "pdb_id": "2QJA",
-    "mutations": "R88K,TC90S,IC92K,PC93A,HC94Q,QC95L,SC98T,TC74A,LC78M,GC79K,LC80Y",
+    "mutations": [
+        "R88K",
+        "TC90S",
+        "IC92K",
+        "PC93A",
+        "HC94Q",
+        "QC95L",
+        "SC98T",
+        "TC74A",
+        "LC78M",
+        "GC79K",
+        "LC80Y"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5685,7 +6677,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "2QJA",
-    "mutations": "T74A,LC78M,GC79K,LC80Y",
+    "mutations": [
+        "T74A",
+        "LC78M",
+        "GC79K",
+        "LC80Y"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5699,7 +6696,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "2QJB",
-    "mutations": "H42G,EC46D,TC61A,MC62I",
+    "mutations": [
+        "H42G",
+        "EC46D",
+        "TC61A",
+        "MC62I"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5713,7 +6715,23 @@ export const jsonData = [
 },
 {
     "pdb_id": "2QJB",
-    "mutations": "R88K,TC90S,IC92K,PC93A,HC94Q,QC95L,SC98T,TC74A,LC78M,GC79K,LC80Y,HC42G,EC46D,TC61A,MC62I",
+    "mutations": [
+        "R88K",
+        "TC90S",
+        "IC92K",
+        "PC93A",
+        "HC94Q",
+        "QC95L",
+        "SC98T",
+        "TC74A",
+        "LC78M",
+        "GC79K",
+        "LC80Y",
+        "HC42G",
+        "EC46D",
+        "TC61A",
+        "MC62I"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5727,7 +6745,16 @@ export const jsonData = [
 },
 {
     "pdb_id": "2QJB",
-    "mutations": "T74A,LC78M,GC79K,LC80Y,HC42G,EC46D,TC61A,MC62I",
+    "mutations": [
+        "T74A",
+        "LC78M",
+        "GC79K",
+        "LC80Y",
+        "HC42G",
+        "EC46D",
+        "TC61A",
+        "MC62I"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -5741,7 +6768,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "D32A",
+    "mutations": [
+        "D32A"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5755,7 +6784,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "D56A",
+    "mutations": [
+        "D56A"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5769,7 +6800,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "I53L",
+    "mutations": [
+        "I53L"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5783,7 +6816,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "I53V",
+    "mutations": [
+        "I53V"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5797,7 +6832,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "N55A",
+    "mutations": [
+        "N55A"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5811,7 +6848,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "N55D",
+    "mutations": [
+        "N55D"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5825,7 +6864,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "Q34A",
+    "mutations": [
+        "Q34A"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5839,7 +6880,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "Q58A",
+    "mutations": [
+        "Q58A"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5853,7 +6896,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "Q58E",
+    "mutations": [
+        "Q58E"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5867,7 +6912,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "S31A",
+    "mutations": [
+        "S31A"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5881,7 +6928,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "S32A",
+    "mutations": [
+        "S32A"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5895,7 +6944,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "S99A",
+    "mutations": [
+        "S99A"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5909,7 +6960,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "Y101A",
+    "mutations": [
+        "Y101A"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5923,7 +6976,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "Y101F",
+    "mutations": [
+        "Y101F"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5937,7 +6992,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLR",
-    "mutations": "A99S",
+    "mutations": [
+        "A99S"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -5951,7 +7008,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "E114A",
+    "mutations": [
+        "E114A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -5965,7 +7024,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "E122A",
+    "mutations": [
+        "E122A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -5979,7 +7040,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "E19A",
+    "mutations": [
+        "E19A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -5993,7 +7056,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "I11A",
+    "mutations": [
+        "I11A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -6007,7 +7072,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "I5A",
+    "mutations": [
+        "I5A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -6021,7 +7088,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "K117A",
+    "mutations": [
+        "K117A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -6035,7 +7104,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "L7A",
+    "mutations": [
+        "L7A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -6049,7 +7120,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "N15A",
+    "mutations": [
+        "N15A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -6063,7 +7136,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "Q8A",
+    "mutations": [
+        "Q8A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -6077,7 +7152,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "R115A",
+    "mutations": [
+        "R115A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -6091,7 +7168,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "R121A",
+    "mutations": [
+        "R121A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -6105,7 +7184,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "S125A",
+    "mutations": [
+        "S125A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -6119,7 +7200,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "S16A",
+    "mutations": [
+        "S16A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -6133,7 +7216,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "T118A",
+    "mutations": [
+        "T118A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -6147,7 +7232,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "T13A",
+    "mutations": [
+        "T13A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -6161,7 +7248,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "T6A",
+    "mutations": [
+        "T6A"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -6175,7 +7264,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4XSS",
-    "mutations": "R21A",
+    "mutations": [
+        "R21A"
+    ],
     "protein1": "Human insulin-like growth factor I (IGF-I)",
     "protein2": "Human insulin receptor (IR)",
     "experiment": "Surface Plasmon Resonance",
@@ -6189,7 +7280,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "4XSS",
-    "mutations": "R36A,RB37A",
+    "mutations": [
+        "R36A",
+        "RB37A"
+    ],
     "protein1": "Human insulin-like growth factor I (IGF-I)",
     "protein2": "Human insulin receptor (IR)",
     "experiment": "Surface Plasmon Resonance",
@@ -6203,7 +7297,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4XSS",
-    "mutations": "R50A",
+    "mutations": [
+        "R50A"
+    ],
     "protein1": "Human insulin-like growth factor I (IGF-I)",
     "protein2": "Human insulin receptor (IR)",
     "experiment": "Surface Plasmon Resonance",
@@ -6217,7 +7313,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4XSS",
-    "mutations": "R55A",
+    "mutations": [
+        "R55A"
+    ],
     "protein1": "Human insulin-like growth factor I (IGF-I)",
     "protein2": "Human insulin receptor (IR)",
     "experiment": "Surface Plasmon Resonance",
@@ -6231,7 +7329,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4XSS",
-    "mutations": "R56A",
+    "mutations": [
+        "R56A"
+    ],
     "protein1": "Human insulin-like growth factor I (IGF-I)",
     "protein2": "Human insulin receptor (IR)",
     "experiment": "Surface Plasmon Resonance",
@@ -6245,7 +7345,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "G28I,SD100A",
+    "mutations": [
+        "G28I",
+        "SD100A"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6259,7 +7362,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "G28I,SD100T",
+    "mutations": [
+        "G28I",
+        "SD100T"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6273,7 +7379,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "G28L,SD100A",
+    "mutations": [
+        "G28L",
+        "SD100A"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6287,7 +7396,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "G28L,SD100T",
+    "mutations": [
+        "G28L",
+        "SD100T"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6301,7 +7413,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "G28M,SD100A",
+    "mutations": [
+        "G28M",
+        "SD100A"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6315,7 +7430,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "G28M,SD100T",
+    "mutations": [
+        "G28M",
+        "SD100T"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6329,7 +7447,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "G28M,SD51M,SD100T",
+    "mutations": [
+        "G28M",
+        "SD51M",
+        "SD100T"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6343,7 +7465,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "G28T,SD51M,SD100T",
+    "mutations": [
+        "G28T",
+        "SD51M",
+        "SD100T"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6357,7 +7483,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "R27F,GD28M,SD51M,SD100T",
+    "mutations": [
+        "R27F",
+        "GD28M",
+        "SD51M",
+        "SD100T"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6371,7 +7502,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "R27F,GD28T,SD51M,SD100T",
+    "mutations": [
+        "R27F",
+        "GD28T",
+        "SD51M",
+        "SD100T"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6385,7 +7521,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "D26W,RD27F,SD51M,SD100T",
+    "mutations": [
+        "D26W",
+        "RD27F",
+        "SD51M",
+        "SD100T"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6399,7 +7540,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "D26W,GD28M,SD51M,SD100T",
+    "mutations": [
+        "D26W",
+        "GD28M",
+        "SD51M",
+        "SD100T"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6413,7 +7559,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "D26W,GD28T,SD51M,SD100T",
+    "mutations": [
+        "D26W",
+        "GD28T",
+        "SD51M",
+        "SD100T"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6427,7 +7578,13 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "D26W,RD27F,GD28T,SD51M,SD100T",
+    "mutations": [
+        "D26W",
+        "RD27F",
+        "GD28T",
+        "SD51M",
+        "SD100T"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6441,7 +7598,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "G101A,RE102Q",
+    "mutations": [
+        "G101A",
+        "RE102Q"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6455,7 +7615,10 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "A99M,GE100S",
+    "mutations": [
+        "A99M",
+        "GE100S"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6469,7 +7632,11 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "A99M,GE100S,GE101A",
+    "mutations": [
+        "A99M",
+        "GE100S",
+        "GE101A"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6483,7 +7650,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "A99M,GE100S,GE101A,RE102Q",
+    "mutations": [
+        "A99M",
+        "GE100S",
+        "GE101A",
+        "RE102Q"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6497,7 +7669,12 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "G28T,AE99M,GE100S,GE101A",
+    "mutations": [
+        "G28T",
+        "AE99M",
+        "GE100S",
+        "GE101A"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6511,7 +7688,13 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "G28T,AE99M,GE100S,GE101A,RE102Q",
+    "mutations": [
+        "G28T",
+        "AE99M",
+        "GE100S",
+        "GE101A",
+        "RE102Q"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6525,7 +7708,13 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "D26W,AE99M,GE100S,GE101A,RE102Q",
+    "mutations": [
+        "D26W",
+        "AE99M",
+        "GE100S",
+        "GE101A",
+        "RE102Q"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6539,7 +7728,15 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "D26W,RD27F,SD51M,AE99M,GE100S,GE101A,RE102Q",
+    "mutations": [
+        "D26W",
+        "RD27F",
+        "SD51M",
+        "AE99M",
+        "GE100S",
+        "GE101A",
+        "RE102Q"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6553,7 +7750,16 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "D26W,RD27F,SD51M,SD100T,AE99M,GE100S,GE101A,RE102Q",
+    "mutations": [
+        "D26W",
+        "RD27F",
+        "SD51M",
+        "SD100T",
+        "AE99M",
+        "GE100S",
+        "GE101A",
+        "RE102Q"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6567,7 +7773,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "R27P",
+    "mutations": [
+        "R27P"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6581,7 +7789,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "K103P",
+    "mutations": [
+        "K103P"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6595,7 +7805,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "A52P",
+    "mutations": [
+        "A52P"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6609,7 +7821,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "G101P",
+    "mutations": [
+        "G101P"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6623,7 +7837,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "R102P",
+    "mutations": [
+        "R102P"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -6637,7 +7853,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JCK",
-    "mutations": "G102A",
+    "mutations": [
+        "G102A"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type C-3 (SEC3)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -6651,7 +7869,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JCK",
-    "mutations": "K103A",
+    "mutations": [
+        "K103A"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type C-3 (SEC3)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -6665,7 +7885,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JCK",
-    "mutations": "N60A",
+    "mutations": [
+        "N60A"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type C-3 (SEC3)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -6679,7 +7901,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JCK",
-    "mutations": "T20A",
+    "mutations": [
+        "T20A"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type C-3 (SEC3)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -6693,7 +7917,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JCK",
-    "mutations": "V91A",
+    "mutations": [
+        "V91A"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type C-3 (SEC3)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -6707,7 +7933,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JCK",
-    "mutations": "Y26A",
+    "mutations": [
+        "Y26A"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type C-3 (SEC3)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -6721,7 +7949,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JCK",
-    "mutations": "Y90A",
+    "mutations": [
+        "Y90A"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type C-3 (SEC3)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -6735,7 +7965,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JCK",
-    "mutations": "F176A",
+    "mutations": [
+        "F176A"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type C-3 (SEC3)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -6749,7 +7981,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1SBB",
-    "mutations": "L20T",
+    "mutations": [
+        "L20T"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type B (SEB)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -6763,7 +7997,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1SBB",
-    "mutations": "V26Y",
+    "mutations": [
+        "V26Y"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type B (SEB)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -6777,7 +8013,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1SBB",
-    "mutations": "Y91V",
+    "mutations": [
+        "Y91V"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type B (SEB)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -6791,7 +8029,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2C0L",
-    "mutations": "N382A",
+    "mutations": [
+        "N382A"
+    ],
     "protein1": "Human peroxisomal targeting signal 1 receptor/peroxin-5 (PEX5) TPR domain",
     "protein2": "Human non-specific lipid-transfer protein/sterol carrier protein 2 (NSL-TP/SCP-2)",
     "experiment": "Isothermal Titration Microcalorimetry",
@@ -6805,7 +8045,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2C0L",
-    "mutations": "Q586R",
+    "mutations": [
+        "Q586R"
+    ],
     "protein1": "Human peroxisomal targeting signal 1 receptor/peroxin-5 (PEX5) TPR domain",
     "protein2": "Human non-specific lipid-transfer protein/sterol carrier protein 2 (NSL-TP/SCP-2)",
     "experiment": "Isothermal Titration Microcalorimetry",
@@ -6819,7 +8061,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2C0L",
-    "mutations": "S589Y",
+    "mutations": [
+        "S589Y"
+    ],
     "protein1": "Human peroxisomal targeting signal 1 receptor/peroxin-5 (PEX5) TPR domain",
     "protein2": "Human non-specific lipid-transfer protein/sterol carrier protein 2 (NSL-TP/SCP-2)",
     "experiment": "Isothermal Titration Microcalorimetry",
@@ -6833,7 +8077,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2HLE",
-    "mutations": "K149Q",
+    "mutations": [
+        "K149Q"
+    ],
     "protein1": "Human ephrin type-B receptor 4",
     "protein2": "Human ephrin-B2",
     "experiment": "Isothermal Titration Calorimetry",
@@ -6847,7 +8093,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2HLE",
-    "mutations": "L95R",
+    "mutations": [
+        "L95R"
+    ],
     "protein1": "Human ephrin type-B receptor 4",
     "protein2": "Human ephrin-B2",
     "experiment": "Isothermal Titration Calorimetry",
@@ -6861,7 +8109,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2I26",
-    "mutations": "A30V",
+    "mutations": [
+        "A30V"
+    ],
     "protein1": "Ginglymostoma cirratum antigen receptor (type II IgNAR)",
     "protein2": "Gallus gallus egg-white lysozyme C (HEL/HEWL)",
     "experiment": "Surface Plasmon Resonance",
@@ -6875,7 +8125,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2I26",
-    "mutations": "S61R",
+    "mutations": [
+        "S61R"
+    ],
     "protein1": "Ginglymostoma cirratum antigen receptor (type II IgNAR)",
     "protein2": "Gallus gallus egg-white lysozyme C (HEL/HEWL)",
     "experiment": "Surface Plasmon Resonance",
@@ -6889,7 +8141,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4OGA",
-    "mutations": "D707A",
+    "mutations": [
+        "D707A"
+    ],
     "protein1": "Human insulin receptor, soluble (sHIR)",
     "protein2": "Human insulin",
     "experiment": "Microtiter Plate Antibody Capture Assay",
@@ -6903,7 +8157,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4OGA",
-    "mutations": "F714A",
+    "mutations": [
+        "F714A"
+    ],
     "protein1": "Human insulin receptor, soluble (sHIR)",
     "protein2": "Human insulin",
     "experiment": "Microtiter Plate Antibody Capture Assay",
@@ -6917,7 +8173,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4OGA",
-    "mutations": "L709A",
+    "mutations": [
+        "L709A"
+    ],
     "protein1": "Human insulin receptor, soluble (sHIR)",
     "protein2": "Human insulin",
     "experiment": "Microtiter Plate Antibody Capture Assay",
@@ -6931,7 +8189,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4OGA",
-    "mutations": "N711A",
+    "mutations": [
+        "N711A"
+    ],
     "protein1": "Human insulin receptor, soluble (sHIR)",
     "protein2": "Human insulin",
     "experiment": "Microtiter Plate Antibody Capture Assay",
@@ -6945,7 +8205,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4OGA",
-    "mutations": "P716A",
+    "mutations": [
+        "P716A"
+    ],
     "protein1": "Human insulin receptor, soluble (sHIR)",
     "protein2": "Human insulin",
     "experiment": "Microtiter Plate Antibody Capture Assay",
@@ -6959,7 +8221,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4OGA",
-    "mutations": "R717A",
+    "mutations": [
+        "R717A"
+    ],
     "protein1": "Human insulin receptor, soluble (sHIR)",
     "protein2": "Human insulin",
     "experiment": "Microtiter Plate Antibody Capture Assay",
@@ -6973,7 +8237,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4OGA",
-    "mutations": "V712A",
+    "mutations": [
+        "V712A"
+    ],
     "protein1": "Human insulin receptor, soluble (sHIR)",
     "protein2": "Human insulin",
     "experiment": "Microtiter Plate Antibody Capture Assay",
@@ -6987,7 +8253,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4OGA",
-    "mutations": "V715A",
+    "mutations": [
+        "V715A"
+    ],
     "protein1": "Human insulin receptor, soluble (sHIR)",
     "protein2": "Human insulin",
     "experiment": "Microtiter Plate Antibody Capture Assay",
@@ -7001,7 +8269,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -7015,7 +8285,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -7029,7 +8301,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive displacement",
@@ -7043,7 +8317,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Competitive Binding",
@@ -7057,7 +8333,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1A22",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human growth hormone receptor (hGHR)",
     "experiment": "Surface Plasmon Resonance",
@@ -7071,7 +8349,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -7080,12 +8360,14 @@ export const jsonData = [
     "delta_g": -14.29,
     "delta_delta_g": null,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1BP3",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human growth hormone/somatotropin (hGH)",
     "protein2": "Human prolactin receptor (hPRL-R)",
     "experiment": "Competitive displacement",
@@ -7094,12 +8376,14 @@ export const jsonData = [
     "delta_g": -8.96,
     "delta_delta_g": null,
     "authors": "Cunningham, B. C., and Wells, J. A.",
-    "journal": "",
+    "journal": null,
     "pubmed_id": "2014261"
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -7113,7 +8397,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -7127,7 +8413,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1IAR",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human interleukin-4 (hIL-4)",
     "protein2": "Human interleukin-4 receptor alpha (hIL-4Ra)",
     "experiment": "Surface Plasmon Resonance",
@@ -7141,7 +8429,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1ILQ",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human interleukin-8 (hIL-8)",
     "protein2": "Human interleukin-8 receptor (hIL-8R)",
     "experiment": "Surface Plasmon Resonance",
@@ -7155,7 +8445,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -7169,7 +8461,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -7183,7 +8477,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Surface Plasmon Resonance",
@@ -7197,7 +8493,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JRH",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Mouse Ig kappa chain C region (mAb A6)",
     "protein2": "Human interferon gamma receptor (IFN-&gamma;-R1)",
     "experiment": "Competition ELISA",
@@ -7211,7 +8509,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KAC",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human adenovirus A serotype 12 fiber protein (ad12 knob)",
     "protein2": "Human coxsackie virus and adenovirus receptor (CAR)",
     "experiment": "Fluorescence Anisotropy/Polarization",
@@ -7225,7 +8525,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -7239,7 +8541,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1KTZ",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human transforming growth factor beta 3 (TGF-&beta;3)",
     "protein2": "Human TGF-beta receptor type-2 (TGFR-2)",
     "experiment": "Surface Plasmon Resonance",
@@ -7253,7 +8557,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -7267,7 +8573,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -7281,7 +8589,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1REW",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -7295,7 +8605,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1YY9",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human-mouse monoclonal antibody C225 gamma 1 Fab (cetuximab)",
     "protein2": "Human epidermal growth factor receptor 2 (EGFR-2/HER2)",
     "experiment": "Surface Plasmon Resonance",
@@ -7309,7 +8621,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2J12",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human adenovirus D37 fiber protein",
     "protein2": "Human coxsackie virus and adenovirus receptor (CAR)",
     "experiment": "Surface Plasmon Resonance",
@@ -7323,7 +8637,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2J1K",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human adenovirus D37 fiber protein",
     "protein2": "Human coxsackie virus and adenovirus receptor (CAR)",
     "experiment": "Surface Plasmon Resonance",
@@ -7337,7 +8653,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2QJ9",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -7351,7 +8669,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2QJA",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -7365,7 +8685,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2QJB",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human bone morphogenetic protein-2 (BMP-2)",
     "protein2": "Human bone morphogenetic protein receptor type-1A (BMPR-1A)",
     "experiment": "Surface Plasmon Resonance",
@@ -7379,7 +8701,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLJ",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -7393,7 +8717,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2VLR",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human MHCI-A2/Infuenza A virus matrix peptide complex",
     "protein2": "Human T-cell receptor JM22 V&beta;17",
     "experiment": "Surface Plasmon Resonance",
@@ -7407,7 +8733,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "3BPL",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human interleukin-4 (IL-4) with interleukin-4 receptor (IL-4R)",
     "protein2": "Cytokine receptor common subunit gamma",
     "experiment": "Surface Plasmon Resonance",
@@ -7421,7 +8749,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4XSS",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human insulin-like growth factor I (IGF-I)",
     "protein2": "Human insulin receptor (IR)",
     "experiment": "Surface Plasmon Resonance",
@@ -7435,7 +8765,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -7449,7 +8781,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1AO7",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human T-cell receptor A6",
     "protein2": "Human HLA class I histocompatibility antigen, A-2 alpha chain with protein TAX-1 (TAX-HLAA2)",
     "experiment": "Surface Plasmon Resonance",
@@ -7463,7 +8797,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JCK",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type C-3 (SEC3)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -7477,7 +8813,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1JCK",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type C-3 (SEC3)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -7491,7 +8829,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "1SBB",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Mouse 14.3.D T-cell antigen receptor",
     "protein2": "Staphylococcus aureus enterotoxin type B (SEB)",
     "experiment": "Sedimentation equilibrium using analytical centrifugation or surface plasmon resonance",
@@ -7505,7 +8845,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2C0L",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human peroxisomal targeting signal 1 receptor/peroxin-5 (PEX5) TPR domain",
     "protein2": "Human non-specific lipid-transfer protein/sterol carrier protein 2 (NSL-TP/SCP-2)",
     "experiment": "Isothermal Titration Microcalorimetry",
@@ -7519,7 +8861,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2HLE",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human ephrin type-B receptor 4",
     "protein2": "Human ephrin-B2",
     "experiment": "Isothermal Titration Calorimetry",
@@ -7533,7 +8877,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "2I26",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Ginglymostoma cirratum antigen receptor (type II IgNAR)",
     "protein2": "Gallus gallus egg-white lysozyme C (HEL/HEWL)",
     "experiment": "Surface Plasmon Resonance",
@@ -7547,7 +8893,9 @@ export const jsonData = [
 },
 {
     "pdb_id": "4OGA",
-    "mutations": "Wild",
+    "mutations": [
+        "Wild"
+    ],
     "protein1": "Human insulin receptor, soluble (sHIR)",
     "protein2": "Human insulin",
     "experiment": "Microtiter Plate Antibody Capture Assay",

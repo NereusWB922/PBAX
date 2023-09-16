@@ -5,7 +5,7 @@ export interface SearchProtienInteractionsResponse {
 
 export interface ProtienInteraction {
   pdb_id: string;
-  mutations: string;
+  mutations: Array<string>;
   protein1: string;
   protein2: string;
   experiment: string;

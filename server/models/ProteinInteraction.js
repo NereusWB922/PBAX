@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const ProteinInteractionSchema = new Schema({
   pdb_id: String,
-  mutations: String,
+  mutations: [String],
   protein1: String,
   protein2: String,
   experiment: String,
