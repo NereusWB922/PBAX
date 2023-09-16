@@ -13,7 +13,7 @@ const generateSearchConditions = (search) => {
   // Get all the fields of the ProteinInteraction model
   const allFields = Object.keys(ProteinInteraction.schema.paths);
 
-// Filter the array to include only string type fields
+  // Filter the array to include only string type fields
   const searchableFields = allFields.filter((field) => {
     return ProteinInteraction.schema.paths[field].instance === "String";
   });
@@ -31,14 +31,15 @@ const generateSearchConditions = (search) => {
 
 export const searchProteinInteractions = async (req, res) => {
   try {
-    const { page = 1, pageSize = 20, sort = null, search = "" } = req.query;
+    const { page, pageSize, sort, search } = req.query;
 
-    const sortFormatted = Boolean(sort) ? generateSort(sort) : {};
+    const sortFormatted =
+      Object.keys(sort).length === 0 ? generateSort(sort) : {};
 
     const searchConditions = generateSearchConditions(search);
 
     const proteinInteractions = await ProteinInteraction.find({
-      $or: searchConditions
+      $or: searchConditions,
     })
       .sort(sortFormatted)
       .skip(page * pageSize)
