@@ -2,11 +2,10 @@ import { Typography, Box, useTheme } from "@mui/material";
 
 type Props = {
   title: string;
-  subtitle: string;
 };
 
 const Header = (props: Props) => {
-  const { title, subtitle } = props;
+  const { title } = props;
   const theme = useTheme();
   return (
     <Box>
@@ -14,12 +13,9 @@ const Header = (props: Props) => {
         variant="h2"
         color={theme.palette.secondary[100]}
         fontWeight="bold"
-        sx={{ mb: "5px" }}
+        sx={{ mb: "1px" }}
       >
         {title}
-      </Typography>
-      <Typography variant="h5" color={theme.palette.secondary[300]}>
-        {subtitle}
       </Typography>
     </Box>
   );
