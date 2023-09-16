@@ -15,7 +15,11 @@ const Navbar = () => {
   ];
 
   return (
-    <FlexBetween mb="0.25rem" p="0.5rem 0rem" color={palette.grey[300]}>
+    <FlexBetween
+      m="0 1.5rem 0.25rem 1.5rem"
+      p="0.5rem 0rem"
+      color={palette.grey[300]}
+    >
       {/* LEFT SIDE */}
       <Logo />
 

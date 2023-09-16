@@ -40,7 +40,7 @@ const SearchPage = () => {
   console.log("data", data);
 
   return (
-    <Box m="1rem 2.5rem">
+    <Box m="1rem 1.5rem">
       <Header title="Proteins Interactions" />
       <Box
         height="85vh"
