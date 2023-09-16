@@ -28,7 +28,7 @@ const NavigationMenu = ({ navigationItems }: Props) => {
               textDecoration: "inherit",
             }}
           >
-            {item.path}
+            {item.label}
           </Link>
         </Box>
       ))}
