@@ -8,17 +8,20 @@ import {
 } from "@mui/x-data-grid";
 import FlexBetween from "@/common/FlexBetween";
 import { Dispatch, useState } from "react";
+import CustomAdvancedSearchButton from "@/components/customDataGridComponent/customAdvancedSearchButton";
 
 type Props = {
   tempSearchInput: string;
   setTempSearchInput: Dispatch<string>;
   setSearch: Dispatch<string>;
+  toggleSearchForm: () => void;
 };
 
 const DataGridCustomToolbar = ({
   tempSearchInput,
   setTempSearchInput,
   setSearch,
+  toggleSearchForm,
 }: Props) => {
   const [isResetSearch, setIsResetSearch] = useState(false);
 
@@ -37,6 +40,7 @@ const DataGridCustomToolbar = ({
           <GridToolbarColumnsButton />
           <GridToolbarDensitySelector />
           <GridToolbarExport />
+          <CustomAdvancedSearchButton toggleSearchForm={toggleSearchForm} />
         </FlexBetween>
         <TextField
           label="Search..."
