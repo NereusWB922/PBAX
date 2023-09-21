@@ -25,8 +25,3 @@ export interface SearchProtienInteractionsParam {
   sort: string;
   search: string;
 }
-
-export interface sortModel {
-  field: string;
-  sort: "asc" | "desc";
-}
