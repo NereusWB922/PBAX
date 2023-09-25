@@ -1,6 +1,6 @@
 import { Option, handleFieldChangeProp } from "@/types/types";
 import { Autocomplete, TextField } from "@mui/material";
-import { SyntheticEvent } from "react";
+import { SyntheticEvent, useState } from "react";
 
 type Props = {
   value: string | Option | null;
@@ -19,14 +19,22 @@ const AutoCompleteTextField = ({
   handleFieldChange,
   freeSolo = true,
 }: Props) => {
+  const [inputValue, setInputValue] = useState("");
   return (
     <Autocomplete
       id={`${field}-autocomplete`}
       freeSolo={freeSolo}
       options={options}
       value={value}
+      inputValue={inputValue}
+      onInputChange={(_event, newInputValue) => {
+        setInputValue(newInputValue);
+        if (freeSolo) {
+          handleFieldChange({ field: field, value: newInputValue });
+        }
+      }}
       onChange={(
-        event: SyntheticEvent<Element, Event>,
+        _event: SyntheticEvent<Element, Event>,
         value: string | Option | null
       ) => {
         const prop: handleFieldChangeProp = {
