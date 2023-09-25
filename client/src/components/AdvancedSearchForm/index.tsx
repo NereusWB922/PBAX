@@ -1,11 +1,19 @@
-import { Card, Typography, useTheme } from "@mui/material";
+import { Button, Card, Typography, useTheme } from "@mui/material";
 import ProteinInfoSection from "./ProteinInfoSection";
 import { initialAdvancedSearchModel } from "@/scenes/search/initialValues";
 import { AdvancedSearchModel, handleFieldChangeProp } from "@/types/types";
-import { useState } from "react";
+import { Dispatch, useState } from "react";
 import ExperimentalConditionsSection from "./ExperimentalConditionsSection";
+import ThermodynamicParametersSection from "./ThermodynamicParametersSection";
+import LiteratureInfoSection from "./LiteratureInfoSection";
+import FlexBetween from "@/common/FlexBetween";
 
-const AdvancedSearchForm = () => {
+type Props = {
+  toggleSearchForm: () => void;
+  setAdvancedSearch: Dispatch<AdvancedSearchModel>;
+};
+
+const AdvancedSearchForm = ({ toggleSearchForm, setAdvancedSearch }: Props) => {
   const theme = useTheme();
 
   const [tempAdvancedSearchModel, setTempAdvancedSearchModel] =
@@ -20,15 +28,41 @@ const AdvancedSearchForm = () => {
     });
   };
 
-  console.log(tempAdvancedSearchModel);
+  const onSubmit = () => {
+    setAdvancedSearch(tempAdvancedSearchModel);
+    setTempAdvancedSearchModel(initialAdvancedSearchModel);
+    toggleSearchForm();
+  };
+
+  const onCancel = () => {
+    setTempAdvancedSearchModel(initialAdvancedSearchModel);
+    toggleSearchForm();
+  };
 
   return (
-    <form style={{ width: "30%" }}>
+    <form style={{ width: "32%" }} onSubmit={(event) => event.preventDefault()}>
       <Card
         sx={{
           width: "100%",
-          padding: "1rem 1rem",
+          padding: "2rem 2.5rem",
           backgroundColor: theme.palette.grey[100],
+          maxHeight: "70vh",
+          overflow: "auto",
+          "&::-webkit-scrollbar": {
+            width: "0.5em",
+            overflow: "auto",
+          },
+          "&::-webkit-scrollbar-track": {
+            backgroundColor: theme.palette.grey[800],
+          },
+          "&::-webkit-scrollbar-thumb": {
+            background: theme.palette.primary[400],
+            borderRadius: "20px",
+            backgroundClip: "content-box",
+          },
+          "&::-webkit-scrollbar-thumb:hover": {
+            background: theme.palette.primary[600],
+          },
         }}
       >
         <Typography
@@ -49,9 +83,22 @@ const AdvancedSearchForm = () => {
           tempAdvancedSearchModel={tempAdvancedSearchModel}
           handleFieldChange={handleFieldChange}
         />
-        {/* <Typography variant="h2">Experimental Conditions</Typography>
-        <Typography variant="h2">Thermodynamic Parameters</Typography>
-        <Typography variant="h2">Literature Information</Typography> */}
+        <ThermodynamicParametersSection
+          tempAdvancedSearchModel={tempAdvancedSearchModel}
+          handleFieldChange={handleFieldChange}
+        />
+        <LiteratureInfoSection
+          tempAdvancedSearchModel={tempAdvancedSearchModel}
+          handleFieldChange={handleFieldChange}
+        />
+        <FlexBetween>
+          <Button variant="outlined" onClick={onCancel}>
+            Cancel
+          </Button>
+          <Button variant="contained" onClick={onSubmit}>
+            Submit
+          </Button>
+        </FlexBetween>
       </Card>
     </form>
   );
