@@ -20,7 +20,7 @@ const LiteratureInfoSection = ({
   const pubMedIDOptions: Option[] = [];
   const journalOptions: Option[] = [];
   return (
-    <Box sx={{ mb: "2.5rem" }}>
+    <Box sx={{ mb: "1.5rem" }}>
       <Typography
         variant="h3"
         sx={{

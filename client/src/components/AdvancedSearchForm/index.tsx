@@ -1,4 +1,4 @@
-import { Button, Card, Typography, useTheme } from "@mui/material";
+import { Button, Card, Grid, Typography, useTheme } from "@mui/material";
 import ProteinInfoSection from "./ProteinInfoSection";
 import { initialAdvancedSearchModel } from "@/scenes/search/initialValues";
 import { AdvancedSearchModel, handleFieldChangeProp } from "@/types/types";
@@ -91,14 +91,16 @@ const AdvancedSearchForm = ({ toggleSearchForm, setAdvancedSearch }: Props) => {
           tempAdvancedSearchModel={tempAdvancedSearchModel}
           handleFieldChange={handleFieldChange}
         />
-        <FlexBetween>
-          <Button variant="outlined" onClick={onCancel}>
-            Cancel
-          </Button>
-          <Button variant="contained" onClick={onSubmit}>
-            Submit
-          </Button>
-        </FlexBetween>
+        <Grid container justifyContent="flex-end">
+          <FlexBetween gap="2rem">
+            <Button variant="outlined" onClick={onCancel} size="large">
+              Cancel
+            </Button>
+            <Button variant="contained" onClick={onSubmit} size="large">
+              Submit
+            </Button>
+          </FlexBetween>
+        </Grid>
       </Card>
     </form>
   );
