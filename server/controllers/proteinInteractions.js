@@ -1,7 +1,8 @@
 import ProteinInteraction from "../models/ProteinInteraction.js";
 
 const generateSort = (sort) => {
-  const sortParsed = JSON.parse(sort);
+  const sortParsed = JSON.parse(sort)[0];
+
   const sortFormatted = {
     [sortParsed.field]: sortParsed.sort === "asc" ? 1 : -1,
   };
@@ -35,7 +36,7 @@ export const searchProteinInteractions = async (req, res) => {
 
     const { page, pageSize } = JSON.parse(paginationModel);
 
-    const sortFormatted = sort === "{}" ? {} : generateSort(sort);
+    const sortFormatted = sort === "[]" ? {} : generateSort(sort);
 
     const searchConditions = generateSearchConditions(search);
 
