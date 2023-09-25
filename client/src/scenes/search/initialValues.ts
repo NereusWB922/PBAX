@@ -4,7 +4,7 @@ export const initialAdvancedSearchModel: AdvancedSearchModel = {
   protein1: "",
   protein2: "",
   pbd_id: "",
-  type: null,
+  type: "all",
   mutate_from: "all",
   mutate_to: "all",
   experiment: "",
