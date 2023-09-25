@@ -25,25 +25,16 @@ const ProteinInfoSection = ({
   handleFieldChange,
 }: Props) => {
   const theme = useTheme();
-  const protein1_options: Option[] = [
-    { label: "1", value: "0" },
-    { label: "2", value: "1" },
-  ];
-  const protein2_options: Option[] = [
-    { label: "1", value: "0" },
-    { label: "2", value: "1" },
-  ];
-  const pbd_id_options: Option[] = [
-    { label: "1", value: "0" },
-    { label: "2", value: "1" },
-  ];
+  const protein1_options: Option[] = [];
+  const protein2_options: Option[] = [];
+  const pbd_id_options: Option[] = [];
   return (
     <Box sx={{ mb: "2rem" }}>
       <Typography
         variant="h3"
         sx={{
           color: theme.palette.grey[800],
-          mb: "0.5rem",
+          mb: "1rem",
         }}
       >
         Protein Information
@@ -55,6 +46,11 @@ const ProteinInfoSection = ({
         direction="row"
         alignItems="flex-start"
       >
+        <Grid item xs={12}>
+          <Typography fontWeight="600" margin="0 0 -0.5rem 0">
+            Protein Complex
+          </Typography>
+        </Grid>
         <Grid item xs={6}>
           <AutoCompleteTextField
             value={tempAdvancedSearchModel.protein1}
@@ -80,6 +76,7 @@ const ProteinInfoSection = ({
             label="PBD ID"
             options={pbd_id_options}
             handleFieldChange={handleFieldChange}
+            freeSolo={false}
           />
         </Grid>
         <Grid item xs={6}>
@@ -88,7 +85,7 @@ const ProteinInfoSection = ({
             exclusive
             aria-label="Platform"
             value={tempAdvancedSearchModel.type}
-            onChange={(event: MouseEvent<HTMLElement>, value: string) => {
+            onChange={(_event: MouseEvent<HTMLElement>, value: string) => {
               const prop: handleFieldChangeProp = {
                 field: "type",
                 value: value,
@@ -98,9 +95,10 @@ const ProteinInfoSection = ({
           >
             <ToggleButton value="wild">Wild</ToggleButton>
             <ToggleButton value="mutant">Mutant</ToggleButton>
+            <ToggleButton value="all">All</ToggleButton>
           </ToggleButtonGroup>
         </Grid>
-        {tempAdvancedSearchModel.type != "wild" && (
+        {tempAdvancedSearchModel.type == "mutant" && (
           <>
             <Grid item xs={12}>
               <Typography fontWeight="600">Mutation</Typography>
