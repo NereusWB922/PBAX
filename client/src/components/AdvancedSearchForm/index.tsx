@@ -9,11 +9,11 @@ import LiteratureInfoSection from "./LiteratureInfoSection";
 import FlexBetween from "@/common/FlexBetween";
 
 type Props = {
-  toggleSearchForm: () => void;
+  closeSearchForm: () => void;
   setAdvancedSearch: Dispatch<AdvancedSearchModel>;
 };
 
-const AdvancedSearchForm = ({ toggleSearchForm, setAdvancedSearch }: Props) => {
+const AdvancedSearchForm = ({ closeSearchForm, setAdvancedSearch }: Props) => {
   const theme = useTheme();
 
   const [tempAdvancedSearchModel, setTempAdvancedSearchModel] =
@@ -30,13 +30,17 @@ const AdvancedSearchForm = ({ toggleSearchForm, setAdvancedSearch }: Props) => {
 
   const onSubmit = () => {
     setAdvancedSearch(tempAdvancedSearchModel);
-    setTempAdvancedSearchModel(initialAdvancedSearchModel);
-    toggleSearchForm();
+    closeSearchForm();
   };
 
-  const onCancel = () => {
+  const onClear = () => {
     setTempAdvancedSearchModel(initialAdvancedSearchModel);
-    toggleSearchForm();
+    setAdvancedSearch(initialAdvancedSearchModel);
+    closeSearchForm();
+  };
+
+  const onClose = () => {
+    closeSearchForm();
   };
 
   return (
@@ -91,10 +95,18 @@ const AdvancedSearchForm = ({ toggleSearchForm, setAdvancedSearch }: Props) => {
           tempAdvancedSearchModel={tempAdvancedSearchModel}
           handleFieldChange={handleFieldChange}
         />
-        <Grid container justifyContent="flex-end">
-          <FlexBetween gap="2rem">
-            <Button variant="outlined" onClick={onCancel} size="large">
-              Cancel
+        <Grid container justifyContent="center" sx={{ mt: "2rem" }}>
+          <FlexBetween gap="1rem">
+            <Button variant="outlined" onClick={onClose} size="large">
+              Close
+            </Button>
+            <Button
+              variant="outlined"
+              onClick={onClear}
+              size="large"
+              color="error"
+            >
+              Clear
             </Button>
             <Button variant="contained" onClick={onSubmit} size="large">
               Submit

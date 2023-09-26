@@ -14,14 +14,14 @@ type Props = {
   tempSearchInput: string;
   setTempSearchInput: Dispatch<string>;
   setSearch: Dispatch<string>;
-  toggleSearchForm: () => void;
+  openSearchForm: () => void;
 };
 
 const DataGridCustomToolbar = ({
   tempSearchInput,
   setTempSearchInput,
   setSearch,
-  toggleSearchForm,
+  openSearchForm,
 }: Props) => {
   const [isResetSearch, setIsResetSearch] = useState(false);
 
@@ -40,7 +40,7 @@ const DataGridCustomToolbar = ({
           <GridToolbarColumnsButton />
           <GridToolbarDensitySelector />
           <GridToolbarExport />
-          <CustomAdvancedSearchButton toggleSearchForm={toggleSearchForm} />
+          <CustomAdvancedSearchButton openSearchForm={openSearchForm} />
         </FlexBetween>
         <TextField
           label="Search..."
