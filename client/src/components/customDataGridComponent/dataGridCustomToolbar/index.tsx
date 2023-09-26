@@ -1,4 +1,4 @@
-import { Search, RestartAlt } from "@mui/icons-material";
+import { Search } from "@mui/icons-material";
 import { IconButton, TextField, InputAdornment } from "@mui/material";
 import {
   GridToolbarDensitySelector,
@@ -7,7 +7,7 @@ import {
   GridToolbarColumnsButton,
 } from "@mui/x-data-grid";
 import FlexBetween from "@/common/FlexBetween";
-import { Dispatch, useState } from "react";
+import { Dispatch } from "react";
 import CustomAdvancedSearchButton from "@/components/customDataGridComponent/customAdvancedSearchButton";
 
 type Props = {
@@ -23,14 +23,9 @@ const DataGridCustomToolbar = ({
   setSearch,
   openSearchForm,
 }: Props) => {
-  const [isResetSearch, setIsResetSearch] = useState(false);
-
   const handleSearchAction = () => {
-    if (tempSearchInput != "" || isResetSearch) {
-      setSearch(tempSearchInput);
-      setTempSearchInput("");
-      setIsResetSearch((prevState) => !prevState);
-    }
+    setSearch(tempSearchInput);
+    setTempSearchInput("");
   };
 
   return (
@@ -56,7 +51,7 @@ const DataGridCustomToolbar = ({
             endAdornment: (
               <InputAdornment position="end">
                 <IconButton onClick={handleSearchAction}>
-                  {isResetSearch ? <RestartAlt /> : <Search />}
+                  <Search />
                 </IconButton>
               </InputAdornment>
             ),
