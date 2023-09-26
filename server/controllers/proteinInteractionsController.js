@@ -68,6 +68,10 @@ const getMutantCondition = (mutate_from, mutate_to) => {
   return condition;
 };
 
+function escapeRegExp(text) {
+  return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+}
+
 const generateAdvancedSearchCondition = (advancedSearchModel) => {
   const {
     protein1,
@@ -93,11 +97,15 @@ const generateAdvancedSearchCondition = (advancedSearchModel) => {
 
   //protein1
   if (protein1 != null && protein1 != "all") {
-    advancedSearchCondition.push(getMatchWordCondition("protein1", protein1));
+    advancedSearchCondition.push(
+      getMatchWordCondition("protein1", escapeRegExp(protein1))
+    );
   }
   //protein2
   if (protein2 != null && protein2 != "all") {
-    advancedSearchCondition.push(getMatchWordCondition("protein2", protein2));
+    advancedSearchCondition.push(
+      getMatchWordCondition("protein2", escapeRegExp(protein2))
+    );
   }
   //pdb_id
   if (pdb_id != null && pdb_id != "all") {
@@ -135,14 +143,19 @@ const generateAdvancedSearchCondition = (advancedSearchModel) => {
     );
   }
   //delta_delta_g
-  if (max_delta_delta_g !== null || min_delta_delta_g !== null) {
+  if (
+    type == "mutant" &&
+    (max_delta_delta_g !== null || min_delta_delta_g !== null)
+  ) {
     advancedSearchCondition.push(
       getRangeCondition("delta_delta_g", max_delta_delta_g, min_delta_delta_g)
     );
   }
   //authors
   if (authors != null) {
-    advancedSearchCondition.push(getMatchWordCondition("authors", authors));
+    advancedSearchCondition.push(
+      getMatchWordCondition("authors", escapeRegExp(authors))
+    );
   }
   //journal
   if (journal != null && journal != "all") {
@@ -164,7 +177,7 @@ export const searchProteinInteractions = async (req, res) => {
 
     const sortFormatted = sort === "[]" ? {} : generateSort(sort);
 
-    const searchConditions = generateSearchConditions(search);
+    const searchConditions = generateSearchConditions(escapeRegExp(search));
 
     const advancedSearchConditions = generateAdvancedSearchCondition(
       JSON.parse(advancedSearch)
