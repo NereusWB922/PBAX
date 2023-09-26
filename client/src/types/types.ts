@@ -26,6 +26,15 @@ export interface SearchProtienInteractionsParam {
   search: string;
 }
 
+export interface GetOptionsParam {
+  field: string;
+  protein1?: string;
+}
+
+export interface GetOptionsResponse {
+  options: Option[];
+}
+
 export interface AdvancedSearchModel {
   protein1: string | null;
   protein2: string | null;
