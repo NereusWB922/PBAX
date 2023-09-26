@@ -35,6 +35,15 @@ export interface GetOptionsResponse {
   options: Option[];
 }
 
+export interface GetRangeParam {
+  field: string;
+}
+
+export interface GetRangeResponse {
+  max: number;
+  min: number;
+}
+
 export interface AdvancedSearchModel {
   protein1: string | null;
   protein2: string | null;

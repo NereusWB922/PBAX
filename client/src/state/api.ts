@@ -4,12 +4,14 @@ import {
   SearchProtienInteractionsParam,
   GetOptionsParam,
   GetOptionsResponse,
+  GetRangeParam,
+  GetRangeResponse,
 } from "../types/types";
 
 export const api = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_BASE_URL }),
   reducerPath: "main",
-  tagTypes: ["ProteinInteractions", "Options"],
+  tagTypes: ["ProteinInteractions", "Options", "Range"],
   endpoints: (build) => ({
     searchProteinInteractions: build.query<
       SearchProtienInteractionsResponse,
@@ -30,7 +32,18 @@ export const api = createApi({
       }),
       providesTags: ["Options"],
     }),
+    getRange: build.query<GetRangeResponse, GetRangeParam>({
+      query: ({ field }) => ({
+        url: `api/ranges/${field}`,
+        method: "GET",
+      }),
+      providesTags: ["Range"],
+    }),
   }),
 });
 
-export const { useSearchProteinInteractionsQuery, useGetOptionsQuery } = api;
+export const {
+  useSearchProteinInteractionsQuery,
+  useGetOptionsQuery,
+  useGetRangeQuery,
+} = api;
