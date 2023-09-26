@@ -51,6 +51,7 @@ const SearchPage = () => {
     paginationModel: JSON.stringify(paginationModel),
     sort: JSON.stringify(sort),
     search,
+    advancedSearch: JSON.stringify(advancedSearch),
   });
 
   console.log("data", data);

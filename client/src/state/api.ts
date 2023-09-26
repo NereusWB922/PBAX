@@ -17,10 +17,10 @@ export const api = createApi({
       SearchProtienInteractionsResponse,
       SearchProtienInteractionsParam
     >({
-      query: ({ paginationModel, sort, search }) => ({
+      query: ({ paginationModel, sort, search, advancedSearch }) => ({
         url: "api/protein-interactions/search",
         method: "GET",
-        params: { paginationModel, sort, search },
+        params: { paginationModel, sort, search, advancedSearch },
       }),
       providesTags: ["ProteinInteractions"],
     }),

@@ -24,6 +24,7 @@ export interface SearchProtienInteractionsParam {
   paginationModel: string;
   sort: string;
   search: string;
+  advancedSearch: string;
 }
 
 export interface GetOptionsParam {
@@ -47,7 +48,7 @@ export interface GetRangeResponse {
 export interface AdvancedSearchModel {
   protein1: string | null;
   protein2: string | null;
-  pbd_id: string | null;
+  pdb_id: string | null;
   type: "wild" | "mutant" | "all";
   mutate_from: string | null;
   mutate_to: string | null;
