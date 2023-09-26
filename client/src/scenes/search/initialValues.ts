@@ -3,7 +3,7 @@ import { AdvancedSearchModel } from "@/types/types";
 export const initialAdvancedSearchModel: AdvancedSearchModel = {
   protein1: "",
   protein2: "",
-  pbd_id: "all",
+  pdb_id: "all",
   type: "all",
   mutate_from: "all",
   mutate_to: "all",
@@ -17,6 +17,6 @@ export const initialAdvancedSearchModel: AdvancedSearchModel = {
   max_delta_delta_g: null,
   min_delta_delta_g: null,
   authors: null,
-  journal: null,
-  pubmed_id: null,
+  journal: "all",
+  pubmed_id: "all",
 };

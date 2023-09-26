@@ -51,7 +51,7 @@ export const getProtein2Options = async (req, res) => {
   }
 };
 
-export const getPBDIdOptions = async (req, res) => {
+export const getPDBIdOptions = async (req, res) => {
   try {
     const values = await ProteinInteraction.distinct("pdb_id", {
       pdb_id: { $ne: null },

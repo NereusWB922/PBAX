@@ -27,7 +27,7 @@ const ProteinInfoSection = ({
     field: "protein2",
     protein1: tempAdvancedSearchModel.protein1 || "",
   });
-  const { data: pbd_id_data } = useGetOptionsQuery({ field: "pbd_id" });
+  const { data: pdb_id_data } = useGetOptionsQuery({ field: "pdb_id" });
   return (
     <Box sx={{ mb: "2rem" }}>
       <Typography
@@ -71,10 +71,10 @@ const ProteinInfoSection = ({
         </Grid>
         <Grid item xs={6}>
           <AutoCompleteTextField
-            value={tempAdvancedSearchModel.pbd_id}
-            field="pbd_id"
-            label="PBD ID"
-            options={pbd_id_data?.options || []}
+            value={tempAdvancedSearchModel.pdb_id}
+            field="pdb_id"
+            label="PDB ID"
+            options={pdb_id_data?.options || []}
             handleFieldChange={handleFieldChange}
             freeSolo={false}
           />
