@@ -25,8 +25,32 @@ const AutoCompleteTextField = ({
       id={`${field}-autocomplete`}
       freeSolo={freeSolo}
       options={options}
-      value={value}
+      value={options.find((option) => option.value === value) || value}
       inputValue={inputValue}
+      getOptionLabel={(option) => {
+        if (typeof option == "string") {
+          return option;
+        } else {
+          return option.label;
+        }
+      }}
+      isOptionEqualToValue={(option, value) => {
+        let valValue;
+        let optionValue;
+        if (typeof value == "string") {
+          valValue = value;
+        } else {
+          valValue = value.value;
+        }
+
+        if (typeof option == "string") {
+          optionValue = value;
+        } else {
+          optionValue = option.value;
+        }
+
+        return valValue === optionValue;
+      }}
       onInputChange={(_event, newInputValue) => {
         setInputValue(newInputValue);
         if (freeSolo) {
