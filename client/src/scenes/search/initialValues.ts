@@ -3,11 +3,11 @@ import { AdvancedSearchModel } from "@/types/types";
 export const initialAdvancedSearchModel: AdvancedSearchModel = {
   protein1: "",
   protein2: "",
-  pbd_id: "",
+  pbd_id: "all",
   type: "all",
   mutate_from: "all",
   mutate_to: "all",
-  experiment: "",
+  experiment: "all",
   max_temp: null,
   min_temp: null,
   max_ph: null,
