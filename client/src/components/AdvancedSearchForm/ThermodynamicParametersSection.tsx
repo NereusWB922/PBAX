@@ -1,6 +1,7 @@
 import { AdvancedSearchModel, handleFieldChangeProp } from "@/types/types";
 import { Box, Grid, Typography, useTheme } from "@mui/material";
 import CustomSlider from "@/common/CustomSlider";
+import { useGetRangeQuery } from "@/state/api";
 
 type Props = {
   tempAdvancedSearchModel: AdvancedSearchModel;
@@ -12,11 +13,14 @@ const ThermodynamicParametersSection = ({
   handleFieldChange,
 }: Props) => {
   const theme = useTheme();
-  // Todo: currently hardcoded range
-  const minDeltaG = -100;
-  const maxDeltaG = 200;
-  const minDeltaDeltaG = -100;
-  const maxDeltaDeltaG = 200;
+  const { data: deltaGRange } = useGetRangeQuery({ field: "delta_g" });
+  const { data: deltaDeltaGRange } = useGetRangeQuery({
+    field: "delta_delta_g",
+  });
+  const minDeltaG = deltaGRange?.min || -20;
+  const maxDeltaG = deltaGRange?.max || 50;
+  const minDeltaDeltaG = deltaDeltaGRange?.min || -20;
+  const maxDeltaDeltaG = deltaDeltaGRange?.max || 50;
   return (
     <Box sx={{ mb: "2rem" }}>
       <Typography

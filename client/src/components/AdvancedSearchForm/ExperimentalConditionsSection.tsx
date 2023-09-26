@@ -2,7 +2,7 @@ import { AdvancedSearchModel, handleFieldChangeProp } from "@/types/types";
 import { Box, Grid, Typography, useTheme } from "@mui/material";
 import AutoCompleteTextField from "@/common/AutoCompleteTextField";
 import CustomSlider from "@/common/CustomSlider";
-import { useGetOptionsQuery } from "@/state/api";
+import { useGetOptionsQuery, useGetRangeQuery } from "@/state/api";
 
 type Props = {
   tempAdvancedSearchModel: AdvancedSearchModel;
@@ -15,10 +15,12 @@ const ExperimentalConditionsSection = ({
 }: Props) => {
   const theme = useTheme();
   const { data: experiment_data } = useGetOptionsQuery({ field: "experiment" });
-  const minTemp: number = 0;
-  const maxTemp: number = 400;
-  const minPH: number = 0;
-  const maxPH: number = 14;
+  const { data: temperatureRange } = useGetRangeQuery({ field: "temperature" });
+  const { data: pHRange } = useGetRangeQuery({ field: "ph" });
+  const minTemp = temperatureRange?.min || 0;
+  const maxTemp = temperatureRange?.max || 1000;
+  const minPH = pHRange?.min || 0;
+  const maxPH = pHRange?.max || 14;
 
   return (
     <Box sx={{ mb: "2rem" }}>
