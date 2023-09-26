@@ -88,8 +88,8 @@ export const columns: GridColDef[] = [
     headerName: "Journal",
     flex: 1,
     headerAlign: "center",
-    renderCell: (params: GridRenderCellParams) =>
-      params.value === "" ? "-" : params.value,
+    align: "center",
+    renderCell: (params: GridRenderCellParams) => params.value || "-",
   },
 ];
 
