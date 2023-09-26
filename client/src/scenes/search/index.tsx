@@ -62,6 +62,7 @@ const SearchPage = () => {
         <AdvancedSearchForm
           closeSearchForm={closeSearchForm}
           setAdvancedSearch={setAdvancedSearch}
+          advancedSearchModel={advancedSearch}
         />
       </Backdrop>
       <Box m="1rem 1.5rem">

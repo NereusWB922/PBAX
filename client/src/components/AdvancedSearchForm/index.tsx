@@ -11,9 +11,14 @@ import FlexBetween from "@/common/FlexBetween";
 type Props = {
   closeSearchForm: () => void;
   setAdvancedSearch: Dispatch<AdvancedSearchModel>;
+  advancedSearchModel: AdvancedSearchModel;
 };
 
-const AdvancedSearchForm = ({ closeSearchForm, setAdvancedSearch }: Props) => {
+const AdvancedSearchForm = ({
+  closeSearchForm,
+  setAdvancedSearch,
+  advancedSearchModel,
+}: Props) => {
   const theme = useTheme();
 
   const [tempAdvancedSearchModel, setTempAdvancedSearchModel] =
@@ -36,15 +41,15 @@ const AdvancedSearchForm = ({ closeSearchForm, setAdvancedSearch }: Props) => {
   const onClear = () => {
     setTempAdvancedSearchModel(initialAdvancedSearchModel);
     setAdvancedSearch(initialAdvancedSearchModel);
-    closeSearchForm();
   };
 
   const onClose = () => {
+    setTempAdvancedSearchModel(advancedSearchModel);
     closeSearchForm();
   };
 
   return (
-    <form style={{ width: "32%" }} onSubmit={(event) => event.preventDefault()}>
+    <form style={{ width: "34%" }} onSubmit={(event) => event.preventDefault()}>
       <Card
         sx={{
           width: "100%",
