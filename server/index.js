@@ -5,7 +5,9 @@ import cors from "cors";
 import dotenv from "dotenv";
 import helmet from "helmet";
 import morgan from "morgan";
-import ProteinInteractionsRoutes from "./routes/proteinInteractions.js";
+import ProteinInteractionsRouter from "./routes/proteinInteractions.js";
+import OptionsRouter from "./routes/options.js";
+import RangesRouter from "./routes/ranges.js";
 import ProteinInteraction from "./models/ProteinInteraction.js";
 import { jsonData } from "./data/data.js";
 
@@ -21,7 +23,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 /* Routes */
-app.use("/api/protein-interactions", ProteinInteractionsRoutes);
+app.use("/api/protein-interactions", ProteinInteractionsRouter);
+app.use("/api/options", OptionsRouter);
+app.use("/api/ranges", RangesRouter);
 
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 9000;
