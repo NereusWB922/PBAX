@@ -1,4 +1,5 @@
 import { Search } from "@mui/icons-material";
+import ClearIcon from "@mui/icons-material/Clear";
 import { IconButton, TextField, InputAdornment } from "@mui/material";
 import {
   GridToolbarDensitySelector,
@@ -7,7 +8,7 @@ import {
   GridToolbarColumnsButton,
 } from "@mui/x-data-grid";
 import FlexBetween from "@/common/FlexBetween";
-import { Dispatch } from "react";
+import { Dispatch, useState } from "react";
 import CustomAdvancedSearchButton from "@/components/customDataGridComponent/customAdvancedSearchButton";
 
 type Props = {
@@ -23,9 +24,10 @@ const DataGridCustomToolbar = ({
   setSearch,
   openSearchForm,
 }: Props) => {
+  const [showRemoveInput, setShowRemoveInput] = useState(false);
+
   const handleSearchAction = () => {
     setSearch(tempSearchInput);
-    setTempSearchInput("");
   };
 
   return (
@@ -40,7 +42,14 @@ const DataGridCustomToolbar = ({
         <TextField
           label="Search..."
           sx={{ mb: "0.5rem", width: "13rem", height: "3rem" }}
-          onChange={(e) => setTempSearchInput(e.target.value)}
+          onChange={(e) => {
+            if (e.target.value !== "") {
+              setShowRemoveInput(true);
+            } else {
+              setShowRemoveInput(false);
+            }
+            setTempSearchInput(e.target.value);
+          }}
           onKeyDown={(e) => {
             if (e.key === "Enter") {
               handleSearchAction();
@@ -50,8 +59,18 @@ const DataGridCustomToolbar = ({
           InputProps={{
             endAdornment: (
               <InputAdornment position="end">
-                <IconButton onClick={handleSearchAction}>
-                  <Search />
+                <IconButton
+                  onClick={() => {
+                    if (showRemoveInput) {
+                      setTempSearchInput("");
+                      setSearch("");
+                      setShowRemoveInput(false);
+                    } else {
+                      handleSearchAction;
+                    }
+                  }}
+                >
+                  {showRemoveInput ? <ClearIcon /> : <Search />}
                 </IconButton>
               </InputAdornment>
             ),
