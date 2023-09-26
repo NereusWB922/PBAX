@@ -50,6 +50,7 @@ const ThermodynamicParametersSection = ({
             max_value={maxDeltaG}
             min_field="min_delta_g"
             max_field="max_delta_g"
+            step={1}
             handleFieldChange={handleFieldChange}
           />
         </Grid>
@@ -65,6 +66,7 @@ const ThermodynamicParametersSection = ({
               max_value={maxDeltaDeltaG}
               min_field="min_delta_delta_g"
               max_field="max_delta_delta_g"
+              step={1}
               handleFieldChange={handleFieldChange}
             />
           </Grid>

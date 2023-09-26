@@ -61,6 +61,7 @@ const ExperimentalConditionsSection = ({
             max_value={maxTemp}
             min_field="min_temp"
             max_field="max_temp"
+            step={1}
             handleFieldChange={handleFieldChange}
           />
         </Grid>
@@ -75,6 +76,7 @@ const ExperimentalConditionsSection = ({
             max_value={maxPH}
             min_field="min_ph"
             max_field="max_ph"
+            step={0.1}
             handleFieldChange={handleFieldChange}
           />
         </Grid>

@@ -9,6 +9,7 @@ type Props = {
   min_value: number;
   max_field: string;
   min_field: string;
+  step: number;
   handleFieldChange: ({ field, value }: handleFieldChangeProp) => void;
 };
 
@@ -19,6 +20,7 @@ const CustomSlider = ({
   min_value,
   max_field,
   min_field,
+  step,
   handleFieldChange,
 }: Props) => {
   const handleChange = (
@@ -60,7 +62,7 @@ const CustomSlider = ({
           value[0] ? value[0] : min_value,
           value[1] ? value[1] : max_value,
         ]}
-        step={1}
+        step={step}
         min={min_value}
         max={max_value}
         valueLabelDisplay="auto"
