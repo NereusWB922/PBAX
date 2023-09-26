@@ -1,10 +1,7 @@
-import {
-  AdvancedSearchModel,
-  Option,
-  handleFieldChangeProp,
-} from "@/types/types";
+import { AdvancedSearchModel, handleFieldChangeProp } from "@/types/types";
 import { Box, Grid, TextField, Typography, useTheme } from "@mui/material";
 import AutoCompleteTextField from "@/common/AutoCompleteTextField";
+import { useGetOptionsQuery } from "@/state/api";
 
 type Props = {
   tempAdvancedSearchModel: AdvancedSearchModel;
@@ -17,8 +14,9 @@ const LiteratureInfoSection = ({
 }: Props) => {
   const theme = useTheme();
   // Todo: currently hardcoded range
-  const pubMedIDOptions: Option[] = [];
-  const journalOptions: Option[] = [];
+  const { data: pubMedIDData } = useGetOptionsQuery({ field: "pubmed_id" });
+  const { data: journalData } = useGetOptionsQuery({ field: "journal" });
+
   return (
     <Box sx={{ mb: "1.5rem" }}>
       <Typography
@@ -42,7 +40,7 @@ const LiteratureInfoSection = ({
             value={tempAdvancedSearchModel.pubmed_id}
             field="pubmed_id"
             label="PubMed ID"
-            options={pubMedIDOptions}
+            options={pubMedIDData?.options || []}
             handleFieldChange={handleFieldChange}
             freeSolo={false}
           />
@@ -72,7 +70,7 @@ const LiteratureInfoSection = ({
             value={tempAdvancedSearchModel.journal}
             field="journal"
             label="Journal"
-            options={journalOptions}
+            options={journalData?.options || []}
             handleFieldChange={handleFieldChange}
             freeSolo={false}
           />

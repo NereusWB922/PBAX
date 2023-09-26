@@ -1,8 +1,4 @@
-import {
-  AdvancedSearchModel,
-  Option,
-  handleFieldChangeProp,
-} from "@/types/types";
+import { AdvancedSearchModel, handleFieldChangeProp } from "@/types/types";
 import {
   Box,
   Grid,
@@ -14,6 +10,7 @@ import {
 import { MouseEvent } from "react";
 import { amino_acid_menu_items, aminoAcidMapper } from "./MenuItem";
 import AutoCompleteTextField from "@/common/AutoCompleteTextField";
+import { useGetOptionsQuery } from "@/state/api";
 
 type Props = {
   tempAdvancedSearchModel: AdvancedSearchModel;
@@ -25,9 +22,12 @@ const ProteinInfoSection = ({
   handleFieldChange,
 }: Props) => {
   const theme = useTheme();
-  const protein1_options: Option[] = [];
-  const protein2_options: Option[] = [];
-  const pbd_id_options: Option[] = [];
+  const { data: protein1_data } = useGetOptionsQuery({ field: "protein1" });
+  const { data: protein2_data } = useGetOptionsQuery({
+    field: "protein2",
+    protein1: tempAdvancedSearchModel.protein1 || "",
+  });
+  const { data: pbd_id_data } = useGetOptionsQuery({ field: "pbd_id" });
   return (
     <Box sx={{ mb: "2rem" }}>
       <Typography
@@ -56,7 +56,7 @@ const ProteinInfoSection = ({
             value={tempAdvancedSearchModel.protein1}
             field="protein1"
             label="Protein 1"
-            options={protein1_options}
+            options={protein1_data?.options || []}
             handleFieldChange={handleFieldChange}
           />
         </Grid>
@@ -65,7 +65,7 @@ const ProteinInfoSection = ({
             value={tempAdvancedSearchModel.protein2}
             field="protein2"
             label="Protein 2"
-            options={protein2_options}
+            options={protein2_data?.options || []}
             handleFieldChange={handleFieldChange}
           />
         </Grid>
@@ -74,7 +74,7 @@ const ProteinInfoSection = ({
             value={tempAdvancedSearchModel.pbd_id}
             field="pbd_id"
             label="PBD ID"
-            options={pbd_id_options}
+            options={pbd_id_data?.options || []}
             handleFieldChange={handleFieldChange}
             freeSolo={false}
           />

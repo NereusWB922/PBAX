@@ -1,11 +1,8 @@
-import {
-  AdvancedSearchModel,
-  Option,
-  handleFieldChangeProp,
-} from "@/types/types";
+import { AdvancedSearchModel, handleFieldChangeProp } from "@/types/types";
 import { Box, Grid, Typography, useTheme } from "@mui/material";
 import AutoCompleteTextField from "@/common/AutoCompleteTextField";
 import CustomSlider from "@/common/CustomSlider";
+import { useGetOptionsQuery } from "@/state/api";
 
 type Props = {
   tempAdvancedSearchModel: AdvancedSearchModel;
@@ -17,7 +14,7 @@ const ExperimentalConditionsSection = ({
   handleFieldChange,
 }: Props) => {
   const theme = useTheme();
-  const experiment_options: Option[] = [];
+  const { data: experiment_data } = useGetOptionsQuery({ field: "experiment" });
   const minTemp: number = 0;
   const maxTemp: number = 400;
   const minPH: number = 0;
@@ -46,7 +43,7 @@ const ExperimentalConditionsSection = ({
             value={tempAdvancedSearchModel.experiment}
             field="experiment"
             label="Experimental Technique"
-            options={experiment_options}
+            options={experiment_data?.options || []}
             handleFieldChange={handleFieldChange}
             freeSolo={false}
           />
