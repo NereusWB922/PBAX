@@ -5,11 +5,11 @@ const HomePage = () => {
   return (
     <Box
       m="2rem 1.5rem"
-      padding="5rem 0.5rem"
+      padding="3rem 0 0 5rem"
       height="80vh"
       sx={{ display: "flex", alignItems: "center" }}
     >
-      <Box width="75%" minWidth="600px">
+      <Box width="70%" minWidth="600px">
         <Typography variant="h3" fontSize="2.3rem" gutterBottom>
           Welcome to PBAX ➡️
         </Typography>
