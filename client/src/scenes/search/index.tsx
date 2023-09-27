@@ -66,7 +66,7 @@ const SearchPage = () => {
           advancedSearchModel={advancedSearch}
         />
       </Backdrop>
-      <Box m="1rem 1.5rem">
+      <Box m="1rem 0.5rem" minWidth="650px">
         <Header title="Proteins Interactions" />
         <Box
           height="85vh"
@@ -93,7 +93,6 @@ const SearchPage = () => {
               borderBottom: `1px solid ${theme.palette.grey[800]} !important`,
               backgroundColor: theme.palette.grey[900],
               color: theme.palette.secondary[100],
-              overflowX: "hidden",
               minHeight: "auto",
             },
             "& .MuiDataGrid-virtualScroller::-webkit-scrollbar": {

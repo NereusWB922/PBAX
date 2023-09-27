@@ -8,6 +8,7 @@ export const columns: GridColDef[] = [
     flex: 0.6,
     headerAlign: "center",
     align: "center",
+    minWidth: 120,
   },
   {
     field: "protein1",
@@ -16,6 +17,7 @@ export const columns: GridColDef[] = [
     flex: 1.5,
     headerAlign: "center",
     align: "center",
+    minWidth: 200,
   },
   {
     field: "protein2",
@@ -24,6 +26,7 @@ export const columns: GridColDef[] = [
     flex: 1.5,
     headerAlign: "center",
     align: "center",
+    minWidth: 200,
   },
   {
     field: "mutations",
@@ -32,6 +35,7 @@ export const columns: GridColDef[] = [
     headerAlign: "center",
     align: "center",
     flex: 0.7,
+    minWidth: 100,
   },
   {
     field: "experiment",
@@ -39,6 +43,7 @@ export const columns: GridColDef[] = [
     headerAlign: "center",
     align: "center",
     flex: 1,
+    minWidth: 200,
   },
   {
     field: "temperature",
@@ -46,6 +51,7 @@ export const columns: GridColDef[] = [
     flex: 0.7,
     headerAlign: "center",
     align: "center",
+    minWidth: 150,
   },
   {
     field: "ph",
@@ -53,6 +59,7 @@ export const columns: GridColDef[] = [
     flex: 0.5,
     headerAlign: "center",
     align: "center",
+    minWidth: 100,
   },
   {
     field: "delta_g",
@@ -60,6 +67,7 @@ export const columns: GridColDef[] = [
     flex: 0.7,
     headerAlign: "center",
     align: "center",
+    minWidth: 130,
   },
   {
     field: "delta_delta_g",
@@ -67,6 +75,7 @@ export const columns: GridColDef[] = [
     flex: 0.7,
     headerAlign: "center",
     align: "center",
+    minWidth: 150,
     renderCell: (params: GridRenderCellParams) =>
       params.value === null ? "-" : params.value,
   },
@@ -76,12 +85,14 @@ export const columns: GridColDef[] = [
     headerAlign: "center",
     align: "center",
     flex: 0.6,
+    minWidth: 150,
   },
   {
     field: "authors",
     headerName: "Author(s)",
     flex: 1,
     headerAlign: "center",
+    minWidth: 150,
   },
   {
     field: "journal",
@@ -89,6 +100,7 @@ export const columns: GridColDef[] = [
     flex: 1,
     headerAlign: "center",
     align: "center",
+    minWidth: 200,
     renderCell: (params: GridRenderCellParams) => params.value || "-",
   },
 ];
