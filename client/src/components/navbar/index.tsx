@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <FlexBetween
-      m="0 1.5rem 0.25rem 1.5rem"
+      m="0 0.5rem 0.25rem 0.5rem"
       p="0.5rem 0rem"
       color={palette.grey[300]}
     >

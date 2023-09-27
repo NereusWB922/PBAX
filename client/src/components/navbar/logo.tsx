@@ -7,7 +7,7 @@ const Logo = () => {
     <FlexBetween gap="0.75rem">
       <StorageIcon sx={{ fontSize: "25px" }} />
       <Typography variant="h4" fontSize="20px">
-        BioDB
+        PBAX
       </Typography>
     </FlexBetween>
   );
