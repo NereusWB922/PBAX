@@ -8,6 +8,7 @@ Welcome to the README for the CS2220 database project. This project involves the
 - [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Getting Started](#getting-started)
+- [Todo](#Todo)
 
 ## Project Overview
 
@@ -65,3 +66,10 @@ To get started with the project, follow these steps:
    npm run dev
    ```
    This command will run the server and client development servers simultaneously. You can access the application in your web browser at http://localhost:5173.
+
+## Todo
+- [x] Quick Search feature
+- [x] Advanced Search functionality
+- [x] Column Filtering capabilities
+- [x] Sorting options
+- [ ] Analytics Page
