@@ -3,7 +3,7 @@ import { Backdrop, Box, useTheme } from "@mui/material";
 import { DataGrid, GridPaginationModel, GridSortModel } from "@mui/x-data-grid";
 import Header from "@/components/header";
 import { useState } from "react";
-import columns from "./columns";
+import { getColumns } from "./columns";
 import DataGridCustomToolbar from "@/components/customDataGridComponent/dataGridCustomToolbar";
 import CustomNoRowsOverlay from "@/components/customDataGridComponent/customNoRowsOverlay";
 import { AdvancedSearchModel } from "@/types/types";
@@ -54,8 +54,9 @@ const SearchPage = () => {
     advancedSearch: JSON.stringify(advancedSearch),
   });
 
-  console.log("data", data);
-  console.log("advancedSearch", advancedSearch);
+  const columnsConfig = getColumns({
+    linkHoverColor: theme.palette.primary[300],
+  });
 
   return (
     <>
@@ -72,7 +73,7 @@ const SearchPage = () => {
           height="85vh"
           sx={{
             "& .MuiDataGrid-root": {
-              color: theme.palette.grey[100],
+              color: theme.palette.grey[900],
               border: "none",
             },
             "& .MuiDataGrid-cell": {
@@ -142,7 +143,7 @@ const SearchPage = () => {
             rows={(data && data.proteinInteractions) || []}
             getRowId={(row) => row._id}
             rowCount={(data && data.total) || 0}
-            columns={columns}
+            columns={columnsConfig}
             columnVisibilityModel={columnVisibilityModel}
             onColumnVisibilityModelChange={(newModel) =>
               setColumnVisibilityModel({
