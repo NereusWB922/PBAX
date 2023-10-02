@@ -1,3 +1,5 @@
+import { GridRowId } from "@mui/x-data-grid";
+
 export interface SearchProtienInteractionsResponse {
   proteinInteractions: ProtienInteraction[];
   total: number;
@@ -28,7 +30,7 @@ export interface SearchProtienInteractionsParam {
 }
 
 export interface findInteractionByIdParam {
-  id: string;
+  id: GridRowId;
 }
 
 export interface findInteractionByIdResponse {
