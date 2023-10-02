@@ -27,6 +27,14 @@ export interface SearchProtienInteractionsParam {
   advancedSearch: string;
 }
 
+export interface findInteractionByIdParam {
+  id: string;
+}
+
+export interface findInteractionByIdResponse {
+  entry: ProtienInteraction;
+}
+
 export interface GetOptionsParam {
   field: string;
   protein1?: string;
