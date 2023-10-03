@@ -1,6 +1,12 @@
 import { useSearchProteinInteractionsQuery } from "@/state/api";
-import { Backdrop, Box, useTheme } from "@mui/material";
-import { DataGrid, GridPaginationModel, GridSortModel } from "@mui/x-data-grid";
+import { Box, useTheme } from "@mui/material";
+import {
+  DataGrid,
+  GridPaginationModel,
+  GridRowId,
+  GridRowParams,
+  GridSortModel,
+} from "@mui/x-data-grid";
 import Header from "@/components/header";
 import { useState } from "react";
 import { getColumns } from "./columns";
@@ -9,6 +15,7 @@ import CustomNoRowsOverlay from "@/components/customDataGridComponent/customNoRo
 import { AdvancedSearchModel } from "@/types/types";
 import { initialAdvancedSearchModel } from "./initialValues";
 import AdvancedSearchForm from "@/components/AdvancedSearchForm";
+import ProteinInteractionCard from "@/components/ProteinInteractionCard";
 
 const SearchPage = () => {
   const theme = useTheme();
@@ -39,6 +46,16 @@ const SearchPage = () => {
   );
   const [showSearchForm, setShowSearchForm] = useState(false);
 
+  //For show entry information
+  const [selectedRowId, setSelectedRowId] = useState<GridRowId>("");
+  const [showEntryCard, setShowEntryCard] = useState(false);
+  const handleShowEntryCard = () => {
+    setShowEntryCard(true);
+  };
+  const handleCloseEntryCard = () => {
+    setShowEntryCard(false);
+  };
+
   const closeSearchForm = () => {
     setShowSearchForm(false);
   };
@@ -60,13 +77,17 @@ const SearchPage = () => {
 
   return (
     <>
-      <Backdrop sx={{ zIndex: "10" }} open={showSearchForm}>
-        <AdvancedSearchForm
-          closeSearchForm={closeSearchForm}
-          setAdvancedSearch={setAdvancedSearch}
-          advancedSearchModel={advancedSearch}
-        />
-      </Backdrop>
+      <ProteinInteractionCard
+        id={selectedRowId}
+        open={showEntryCard}
+        onClose={handleCloseEntryCard}
+      />
+      <AdvancedSearchForm
+        closeSearchForm={closeSearchForm}
+        setAdvancedSearch={setAdvancedSearch}
+        advancedSearchModel={advancedSearch}
+        showSearchForm={showSearchForm}
+      />
       <Box m="1rem 0.5rem" minWidth="650px">
         <Header title="Proteins Interactions" />
         <Box
@@ -138,11 +159,15 @@ const SearchPage = () => {
           }}
         >
           <DataGrid
-            disableRowSelectionOnClick
+            disableColumnFilter
             loading={isLoading || !data}
             rows={(data && data.proteinInteractions) || []}
             getRowId={(row) => row._id}
             rowCount={(data && data.total) || 0}
+            onRowClick={(params: GridRowParams) => {
+              setSelectedRowId(params.id);
+              handleShowEntryCard();
+            }}
             columns={columnsConfig}
             columnVisibilityModel={columnVisibilityModel}
             onColumnVisibilityModelChange={(newModel) =>
