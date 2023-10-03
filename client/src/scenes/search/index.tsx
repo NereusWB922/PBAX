@@ -160,6 +160,7 @@ const SearchPage = () => {
         >
           <DataGrid
             disableColumnFilter
+            disableDensitySelector
             loading={isLoading || !data}
             rows={(data && data.proteinInteractions) || []}
             getRowId={(row) => row._id}
@@ -194,6 +195,8 @@ const SearchPage = () => {
             }}
             slotProps={{
               toolbar: {
+                csvOptions: { allColumns: true },
+                printOptions: { disableToolbarButton: true },
                 tempSearchInput,
                 setTempSearchInput,
                 setSearch,

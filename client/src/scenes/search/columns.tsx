@@ -66,6 +66,7 @@ export function getColumns({ linkHoverColor }: Params): GridColDef[] {
       headerAlign: "center",
       align: "center",
       flex: 0.7,
+      valueFormatter: ({ value }) => value.join(", "),
       minWidth: 100,
     },
     {
