@@ -1,18 +1,19 @@
-# CS2220 - Database project
+# PBAX - The Protein Binding Affinity Explorer
 
-Welcome to the README for the CS2220 database project. This project involves the development of a full-stack database website focused on protein-protein interaction data. The technology stack employed includes MERN (MongoDB, Express.js, React, Node.js) with TypeScript, Vite, and Material UI. The primary features of the application include quick search, advanced search, column filtering, and sorting capabilities.
+Welcome to PBAX, a full-stack database website project focused on protein-protein interaction data. This project is developed as part of the CS2220 course. 
 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Tech Stack](#tech-stack)
 - [Features](#features)
-- [Getting Started](#getting-started)
-- [Todo](#Todo)
+- [Deployment](#deployment)
+- [Local Development Setup](#local-development-setup)
+- [Todo](#todo)
 
 ## Project Overview
 
-This project is part of the CS2220 course, Introduction to Computational Biology. The aim is to create a comprehensive database website to manage and explore protein-protein interaction data. The database will facilitate the retrieval of relevant biological information, making it a valuable resource for researchers and students in the field.
+PBAX aims to provide a comprehensive database for managing and exploring protein-protein interaction data. The technology stack employed includes MERN (MongoDB, Express.js, React, Node.js) with TypeScript, Vite, and Material UI. The primary features of the application include quick search, advanced search, column filtering, and sorting capabilities.
 
 ## Tech Stack
 
@@ -35,9 +36,15 @@ The key features of the project include:
 
 4. **Sorting**: Sorting options enable users to organize data based on different attributes, aiding in data analysis.
 
-## Getting Started
+## Deployment
 
-To get started with the project, follow these steps:
+PBAX has been successfully deployed:
+
+- The frontend is hosted on [Vercel](https://vercel.com) and can be accessed at [PBAX](https://pbax-26qbs05ba-nereus-projects.vercel.app).
+- The backend is hosted on [Fly.io](https://fly.io).
+## Local Development Setup
+
+To run the project on local, follow these steps:
 
 1. Clone this repository to your local machine:
 
