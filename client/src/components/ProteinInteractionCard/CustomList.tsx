@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { Typography, useTheme } from "@mui/material";
 import React from "react";
 
 type Param = {
@@ -6,6 +6,7 @@ type Param = {
 };
 
 const CustomList = ({ children }: Param) => {
+  const theme = useTheme();
   return (
     <Typography
       variant="body2"
@@ -22,6 +23,13 @@ const CustomList = ({ children }: Param) => {
         },
         "& strong": {
           minWidth: "105px",
+        },
+        "& a": {
+          textDecoration: "none",
+          color: "inherit",
+          "&:hover": {
+            color: theme.palette.primary[500],
+          },
         },
       }}
     >

@@ -2,8 +2,11 @@ import { useFindInteractionByIdQuery } from "@/state/api";
 import { Dialog, DialogContent, IconButton, useTheme } from "@mui/material";
 import { GridRowId } from "@mui/x-data-grid";
 import CloseIcon from "@mui/icons-material/Close";
+import LaunchIcon from "@mui/icons-material/Launch";
 import CustomTitle from "./CustomTitle";
 import CustomList from "./CustomList";
+import { Link } from "react-router-dom";
+import FlexBetween from "@/common/FlexBetween";
 
 type Param = {
   id: GridRowId;
@@ -83,7 +86,15 @@ const ProteinInteractionCard = ({ id, open, onClose }: Param) => {
           </li>
           <li>
             <strong>PDB ID: </strong>
-            {pdb_id}
+            <Link
+              to={`https://www.rcsb.org/structure/${pdb_id}`}
+              target="_blank"
+            >
+              <FlexBetween gap="0.3rem" sx={{ color: "inherit" }}>
+                {pdb_id}
+                <LaunchIcon />
+              </FlexBetween>
+            </Link>
           </li>
           <li>
             <strong>Mutation:</strong> {mutations?.join(", ")}
@@ -122,7 +133,16 @@ const ProteinInteractionCard = ({ id, open, onClose }: Param) => {
             <strong>Journal:</strong> {journal || "-"}
           </li>
           <li>
-            <strong>PubMed ID:</strong> {pubmed_id || "-"}
+            <strong>PubMed ID:</strong>
+            <Link
+              to={`https://pubmed.ncbi.nlm.nih.gov/2014261//${pubmed_id}`}
+              target="_blank"
+            >
+              <FlexBetween gap="0.3rem" sx={{ color: "inherit" }}>
+                {pubmed_id}
+                <LaunchIcon />
+              </FlexBetween>
+            </Link>
           </li>
         </CustomList>
       </DialogContent>
