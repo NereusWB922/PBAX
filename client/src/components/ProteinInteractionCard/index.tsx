@@ -7,6 +7,7 @@ import CustomTitle from "./CustomTitle";
 import CustomList from "./CustomList";
 import { Link } from "react-router-dom";
 import FlexBetween from "@/common/FlexBetween";
+import SkeletonCard from "./SkeletonCard";
 
 type Param = {
   id: GridRowId;
@@ -16,7 +17,7 @@ type Param = {
 
 const ProteinInteractionCard = ({ id, open, onClose }: Param) => {
   const theme = useTheme();
-  const { data } = useFindInteractionByIdQuery({ id });
+  const { data, isLoading, isFetching } = useFindInteractionByIdQuery({ id });
   const {
     pdb_id,
     mutations,
@@ -57,6 +58,7 @@ const ProteinInteractionCard = ({ id, open, onClose }: Param) => {
       >
         <CloseIcon />
       </IconButton>
+
       <DialogContent
         sx={{
           "&::-webkit-scrollbar": {
@@ -76,75 +78,82 @@ const ProteinInteractionCard = ({ id, open, onClose }: Param) => {
           },
         }}
       >
-        <CustomTitle title="Protein Information" />
-        <CustomList>
-          <li>
-            <strong>Protein 1:</strong> {protein1}
-          </li>
-          <li>
-            <strong>Protein 2:</strong> {protein2}
-          </li>
-          <li>
-            <strong>PDB ID: </strong>
-            <Link
-              to={`https://www.rcsb.org/structure/${pdb_id}`}
-              target="_blank"
-            >
-              <FlexBetween gap="0.3rem" sx={{ color: "inherit" }}>
-                {pdb_id}
-                <LaunchIcon />
-              </FlexBetween>
-            </Link>
-          </li>
-          <li>
-            <strong>Mutation:</strong> {mutations?.join(", ")}
-          </li>
-        </CustomList>
-        <CustomTitle title="Experimental Conditions" />
-        <CustomList>
-          <li>
-            <strong>Experiment: </strong>
-            {experiment}
-          </li>
-          <li>
-            <strong>Temperature:</strong> {temperature || "-"}{" "}
-            {temperature ? "K" : ""}
-          </li>
-          <li>
-            <strong>pH:</strong> {ph || "-"}
-          </li>
-        </CustomList>
-        <CustomTitle title="Thermodynamic Parameters" />
-        <CustomList>
-          <li>
-            <strong>ΔG:</strong> {delta_g || "-"} {delta_g ? "kcal/mol" : ""}
-          </li>
-          <li>
-            <strong>ΔΔG: </strong>
-            {delta_delta_g || "-"} {delta_delta_g ? "kcal/mol" : ""}
-          </li>
-        </CustomList>
-        <CustomTitle title="Literature Information" />
-        <CustomList>
-          <li>
-            <strong>Authors:</strong> {authors || "-"}
-          </li>
-          <li>
-            <strong>Journal:</strong> {journal || "-"}
-          </li>
-          <li>
-            <strong>PubMed ID:</strong>
-            <Link
-              to={`https://pubmed.ncbi.nlm.nih.gov/2014261//${pubmed_id}`}
-              target="_blank"
-            >
-              <FlexBetween gap="0.3rem" sx={{ color: "inherit" }}>
-                {pubmed_id}
-                <LaunchIcon />
-              </FlexBetween>
-            </Link>
-          </li>
-        </CustomList>
+        {!isLoading && !isFetching ? (
+          <>
+            <CustomTitle title="Protein Information" />
+            <CustomList>
+              <li>
+                <strong>Protein 1:</strong> {protein1}
+              </li>
+              <li>
+                <strong>Protein 2:</strong> {protein2}
+              </li>
+              <li>
+                <strong>PDB ID: </strong>
+                <Link
+                  to={`https://www.rcsb.org/structure/${pdb_id}`}
+                  target="_blank"
+                >
+                  <FlexBetween gap="0.3rem" sx={{ color: "inherit" }}>
+                    {pdb_id}
+                    <LaunchIcon />
+                  </FlexBetween>
+                </Link>
+              </li>
+              <li>
+                <strong>Mutation:</strong> {mutations?.join(", ")}
+              </li>
+            </CustomList>
+            <CustomTitle title="Experimental Conditions" />
+            <CustomList>
+              <li>
+                <strong>Experiment: </strong>
+                {experiment}
+              </li>
+              <li>
+                <strong>Temperature:</strong> {temperature || "-"}{" "}
+                {temperature ? "K" : ""}
+              </li>
+              <li>
+                <strong>pH:</strong> {ph || "-"}
+              </li>
+            </CustomList>
+            <CustomTitle title="Thermodynamic Parameters" />
+            <CustomList>
+              <li>
+                <strong>ΔG:</strong> {delta_g || "-"}{" "}
+                {delta_g ? "kcal/mol" : ""}
+              </li>
+              <li>
+                <strong>ΔΔG: </strong>
+                {delta_delta_g || "-"} {delta_delta_g ? "kcal/mol" : ""}
+              </li>
+            </CustomList>
+            <CustomTitle title="Literature Information" />
+            <CustomList>
+              <li>
+                <strong>Authors:</strong> {authors || "-"}
+              </li>
+              <li>
+                <strong>Journal:</strong> {journal || "-"}
+              </li>
+              <li>
+                <strong>PubMed ID:</strong>
+                <Link
+                  to={`https://pubmed.ncbi.nlm.nih.gov/2014261//${pubmed_id}`}
+                  target="_blank"
+                >
+                  <FlexBetween gap="0.3rem" sx={{ color: "inherit" }}>
+                    {pubmed_id}
+                    <LaunchIcon />
+                  </FlexBetween>
+                </Link>
+              </li>
+            </CustomList>
+          </>
+        ) : (
+          <SkeletonCard />
+        )}
       </DialogContent>
     </Dialog>
   );
