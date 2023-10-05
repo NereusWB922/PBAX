@@ -47,11 +47,6 @@ const CustomSlider = ({
     }
   };
 
-  useEffect(() => {
-    handleFieldChange({ field: max_field, value: max_value });
-    handleFieldChange({ field: min_field, value: min_value });
-  }, []);
-
   return (
     <>
       <Typography fontWeight="600" sx={{ mb: "0.2rem" }}>
